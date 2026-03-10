@@ -1,0 +1,29 @@
+[
+  {
+    "id": "raiffeisen-chytry",
+    "bankName": "Raiffeisenbank",
+    "accountName": "Chytrý účet",
+    "bonusAmount": "3 000 Kč",
+    "requirements": [
+      "Založení účtu online",
+      "Minimálně 3 platby kartou měsíčně po dobu prvních 6 měsíců"
+    ],
+    "monthlyFee": "0 Kč",
+    "link": "https://www.rb.cz/promo-odkaz",
+    "logoUrl": "https://via.placeholder.com/150x50?text=Raiffeisenbank"
+  },
+  {
+    "id": "mbank-mkonto",
+    "bankName": "mBank",
+    "accountName": "mKonto",
+    "bonusAmount": "2 000 Kč",
+    "requirements": [
+      "Založení s promo kódem",
+      "Příchozí platba min. 10 000 Kč",
+      "Platby telefonem/hodinkami"
+    ],
+    "monthlyFee": "0 Kč",
+    "link": "https://www.mbank.cz/promo-odkaz",
+    "logoUrl": "https://via.placeholder.com/150x50?text=mBank"
+  }
+]
