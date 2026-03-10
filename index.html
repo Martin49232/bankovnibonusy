@@ -54,14 +54,14 @@
             margin: 0; 
         }
         
-        /* Grid Layout */
+   
         .grid { 
             display: grid; 
             grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); 
             gap: 30px; 
         }
 
-        /* Card Styling */
+
         .card { 
             background: var(--card-bg); 
             border-radius: 16px; 
@@ -78,7 +78,7 @@
             box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
         }
 
-        /* Card Header (Logo + Bank Name) */
+    
         .card-header {
             display: flex;
             align-items: center;
@@ -110,7 +110,7 @@
             color: var(--text-muted); 
         }
 
-        /* Bonus Highlight */
+
         .bonus-wrapper {
             background: #f0fdf4;
             border: 1px dashed #86efac;
@@ -137,7 +137,7 @@
             margin: 0; 
         }
         
-        /* Requirements List */
+   
         .req-title {
             font-weight: 600;
             font-size: 0.95rem;
@@ -159,7 +159,7 @@
             margin-bottom: 10px;
         }
 
-        /* Custom SVG Checkmark */
+     
         .requirements li::before {
             content: '';
             position: absolute;
@@ -172,7 +172,7 @@
             background-repeat: no-repeat;
         }
 
-        /* Call to Action Button */
+   
         .btn { 
             display: block; 
             text-align: center; 
@@ -226,8 +226,7 @@
                 
                 const card = document.createElement('div');
                 card.className = 'card';
-                
-                // Constructing the new, prettier DOM structure for each card
+        
                 card.innerHTML = `
                     <div class="card-header">
                         <img src="${deal.logoUrl}" alt="${deal.bankName} logo">
