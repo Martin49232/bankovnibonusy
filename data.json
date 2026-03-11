@@ -97,20 +97,5 @@
     "monthlyFee": "0 Kč",
     "link": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
     "logoUrl": "images/kb.png"
-  },
-  {
-    "id": "kb-bonus-4000",
-    "bankName": "Komerční banka",
-    "accountName": "Tarif Start, Standard nebo Comfort",
-    "bonusAmount": "Až 4 000 Kč",
-    "requirements": [
-      "2 000 Kč za aktivitu: 2x měsíčně zaplaťte mobilem nebo hodinkami po dobu 2 měsíců",
-      "2 000 Kč za mobilitu: Převeďte si svůj stávající účet k KB přes aplikaci (Služba převedení účtu)",
-      "Platí pro nové klienty (kteří neměli účet u KB v posledních 12 měsících)",
-      "Vedení tarifu Start je zdarma bez podmínek"
-    ],
-    "monthlyFee": "0 Kč",
-    "link": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
-    "logoUrl": "images/kb.png"
   }
 ]
