@@ -187,9 +187,4 @@
             background: #1e40af; 
         }
    
-        body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f8fafc; margin: 0; padding: 40px 20px; color: #0f172a; line-height: 1.5; }
-        .container { max-width: 800px; margin: 0 auto; }
-        .card { background: #fff; border-radius: 16px; padding: 30px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; margin-bottom: 30px;}
-        .btn { display: block; text-align: center; background: #1e3a8a; color: white; text-decoration: none; padding: 14px; border-radius: 8px; font-weight: 600; font-size: 1rem; }
-        .btn-success { background: #16a34a; font-size: 1.2rem; padding: 20px; margin-top: 20px;}
-        .step { margin-bottom: 20px; padding-left: 20px; border-left: 3px solid #1e3a8a; }
+        
