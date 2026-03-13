@@ -51,7 +51,6 @@
             deals.forEach(deal => {
                 const reqList = deal.requirements.map(req => `<li>${req}</li>`).join('');
                 
-                // Vytvoření cesty k webp formátu z existující png cesty
                 const webpUrl = deal.logoUrl.replace('.png', '.webp');
                 
                 const card = document.createElement('div');
@@ -107,4 +106,9 @@
             </div>
         </div>
 </body>
+<div style="text-align: center; margin: 40px 0;">
+    <a href="blog-jak-ziskat-bonus.html" style="font-weight: bold; color: var(--primary); text-decoration: underline; font-size: 1.1rem;">
+       Přečtěte si náš článek: Jak získat nejlepší bankovní bonusy a peníze za účet v roce 2026?
+    </a>
+</div>
 </html>

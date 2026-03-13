@@ -10,7 +10,7 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://onb.rb.cz/onb-web?mgm=ra0al7",
-    "detailUrl": "raiffeisen.html",
+    "detailUrl": "banks/raiffeisen.html",
     "logoUrl": "images/raiffeisen.png"
   },
   {
@@ -25,7 +25,7 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.mbank.cz/",
-    "detailUrl": "mbank.html",
+    "detailUrl": "banks/mbank.html",
     "logoUrl": "images/mbank.png"
   },
   {
@@ -40,7 +40,7 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.mbank.cz/",
-    "detailUrl": "mbank.html",
+    "detailUrl": "banks/mbank.html",
     "logoUrl": "images/mbank.png"
   },
   {
@@ -55,7 +55,7 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.csob.cz/",
-    "detailUrl": "csob.html",
+    "detailUrl": "banks/csob.html",
     "logoUrl": "images/csob.png"
   },
   {
@@ -71,7 +71,7 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.unicreditbank.cz/",
-    "detailUrl": "unicredit.html",
+    "detailUrl": "banks/unicredit.html",
     "logoUrl": "images/unicredit.png"
   },
   {
@@ -86,7 +86,7 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.airbank.cz/",
-    "detailUrl": "airbank.html",
+    "detailUrl": "banks/airbank.html",
     "logoUrl": "images/airbank.png"
   },
   {
@@ -102,7 +102,7 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
-    "detailUrl": "kb.html",
+    "detailUrl": "banks/kb.html",
     "logoUrl": "images/kb.png"
   }
 ]
