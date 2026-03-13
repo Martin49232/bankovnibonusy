@@ -10,8 +10,8 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://onb.rb.cz/onb-web?mgm=ra0al7",
-    "detailUrl": "banky/raiffeisen.html",
-    "logoUrl": "images/raiffeisen.png"
+    "detailUrl": "https://bankovnibonusy.cz/banky/raiffeisen.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/raiffeisen.png"
   },
   {
     "id": "mbank-mkonto",
@@ -25,8 +25,8 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.mbank.cz/",
-    "detailUrl": "banky/mbank.html",
-    "logoUrl": "images/mbank.png"
+    "detailUrl": "https://bankovnibonusy.cz/banky/mbank.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/mbank.png"
   },
   {
     "id": "mbank-business",
@@ -40,8 +40,8 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.mbank.cz/",
-    "detailUrl": "banky/mbank.html",
-    "logoUrl": "images/mbank.png"
+    "detailUrl": "https://bankovnibonusy.cz/banky/mbank.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/mbank.png"
   },
   {
     "id": "csob-pluskonto",
@@ -55,8 +55,8 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.csob.cz/",
-    "detailUrl": "banky/csob.html",
-    "logoUrl": "images/csob.png"
+    "detailUrl": "https://bankovnibonusy.cz/banky/csob.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/csob.png"
   },
   {
     "id": "unicredit-student",
@@ -71,8 +71,8 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.unicreditbank.cz/",
-    "detailUrl": "banky/unicredit.html",
-    "logoUrl": "images/unicredit.png"
+    "detailUrl": "https://bankovnibonusy.cz/banky/unicredit.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/unicredit.png"
   },
   {
     "id": "airbank-bezny",
@@ -86,8 +86,8 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.airbank.cz/",
-    "detailUrl": "banky/airbank.html",
-    "logoUrl": "images/airbank.png"
+    "detailUrl": "https://bankovnibonusy.cz/banky/airbank.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
   },
   {
     "id": "kb-bonus-4000",
@@ -102,7 +102,7 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
-    "detailUrl": "banky/kb.html",
-    "logoUrl": "images/kb.png"
+    "detailUrl": "https://bankovnibonusy.cz/banky/kb.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/kb.png"
   }
 ]
