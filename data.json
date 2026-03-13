@@ -24,7 +24,7 @@
       "Platby telefonem/hodinkami"
     ],
     "monthlyFee": "0 Kč",
-    "link": "https://www.mbank.cz/promo-odkaz",
+    "link": "https://www.mbank.cz/",
     "detailUrl": "mbank.html",
     "logoUrl": "images/mbank.png"
   },
@@ -40,7 +40,7 @@
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.mbank.cz/",
-    "detailUrl": "podnikatelske-ucty.html",
+    "detailUrl": "mbank.html",
     "logoUrl": "images/mbank.png"
   },
   {

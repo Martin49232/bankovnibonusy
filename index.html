@@ -51,14 +51,23 @@
             deals.forEach(deal => {
                 const reqList = deal.requirements.map(req => `<li>${req}</li>`).join('');
                 
+                // Vytvoření cesty k webp formátu z existující png cesty
+                const webpUrl = deal.logoUrl.replace('.png', '.webp');
+                
                 const card = document.createElement('div');
                 card.className = 'card';
         
-        
                 card.innerHTML = `
                     <div class="card-header">
-                        <img src="${deal.logoUrl}" alt="${deal.bankName} logo">
+                        <picture>
+                            <source srcset="${webpUrl}" type="image/webp">
+                            <img src="${deal.logoUrl}" alt="${deal.bankName} logo" loading="lazy">
+                        </picture>
                         <div class="bank-info">
+                            <h2 class="bank-name">${deal.bankName}</h2>
+                            <div class="meta">${deal.accountName} | Vedení: <strong>${deal.monthlyFee}</strong></div>
+                        </div>
+                    </div>
                             <h2 class="bank-name">${deal.bankName}</h2>
                             <div class="meta">${deal.accountName} | Vedení: <strong>${deal.monthlyFee}</strong></div>
                         </div>
