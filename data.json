@@ -39,7 +39,7 @@
     "bonusAmount": "1 000 Kč",
     "requirements": [
       "Založení s promo kódem",
-      "10 plateb kartou po dobu 60 dnů od založení",
+      "10 plateb kartou během 60 dní od založení",
       "Pouze pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
@@ -54,8 +54,9 @@
     "accountName": "Tarif Start, Standard nebo Comfort",
     "bonusAmount": "Až 4 000 Kč",
     "requirements": [
-      "2 000 Kč za aktivitu: 2x měsíčně zaplaťte mobilem nebo hodinkami po dobu 2 měsíců",
-      "2 000 Kč za mobilitu: Převeďte si svůj stávající účet k KB přes aplikaci (Služba převedení účtu)",
+      "1 500 Kč za platby kartou po dobu tří měsíců",
+      "1 500 Kč za příchozí platby",
+      "1 000 Kč za převod účtu",
       "Pouze pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
