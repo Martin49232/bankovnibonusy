@@ -7,7 +7,7 @@
     "requirements": [
       "Založení účtu online",
       "10 plateb kartou měsíčně po dobu prvních 6 měsíců",
-      "Platí pro nové klienty"
+      "Pouze pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
     "endDate": "Do odvolání",
@@ -24,7 +24,7 @@
       "Registrace telefonního čísla na zvací stránce",
       "Založení a aktivace účtu do 45 dnů od registrace",
       "5 plateb kartou v měsíci založení účtu nebo v měsíci následujícím",
-      "Platí pro nové klienty"
+      "Pouze pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
     "endDate": "Do odvolání",
@@ -40,7 +40,7 @@
     "requirements": [
       "Založení s promo kódem",
       "10 plateb kartou po dobu 60 dnů od založení",
-      "Platí pro nové klienty"
+      "Pouze pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
     "endDate": "30.6.2026",
@@ -56,7 +56,7 @@
     "requirements": [
       "2 000 Kč za aktivitu: 2x měsíčně zaplaťte mobilem nebo hodinkami po dobu 2 měsíců",
       "2 000 Kč za mobilitu: Převeďte si svůj stávající účet k KB přes aplikaci (Služba převedení účtu)",
-      "Platí pro nové klienty"
+      "Pouze pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
     "endDate": "30.6.2026",
@@ -75,7 +75,7 @@
       "Pokud vám ještě nebylo 27 let, stačí jen platit kartou",
       "Minimálně 5 plateb kartou měsíčně po dobu 3 měsíců",
       "Pojištění ztráty karty na 1 rok zdarma jako bonus",
-      "Platí pro nové klienty"
+      "Pouze pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
     "endDate": "31.3.2026",
@@ -93,7 +93,7 @@
       "Aktivace debetní karty do 14 dní od založení (odměna 500 Kč)",
       "Platba kartou v následujícím měsíci (odměna 500 Kč)",
       "Cashback 10 % z nákupů po dobu 6 měsíců (až 1 200 Kč)",
-      "Platí pro nové klienty"
+      "Pouze pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
     "endDate": "31.8.2026",
