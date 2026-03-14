@@ -32,10 +32,10 @@
     "id": "mbank-mkonto",
     "bankName": "mBank",
     "accountName": "mKonto",
-    "bonusAmount": "2 000 Kč",
+    "bonusAmount": "1 000 Kč",
     "requirements": [
       "Založení s promo kódem",
-      "Příchozí platba min. 10 000 Kč",
+      "10x 100kč zpět za každou platbu",
       "Platby telefonem/hodinkami"
     ],
     "monthlyFee": "0 Kč",
@@ -105,20 +105,5 @@
     "link": "https://www.airbank.cz/co-vas-nejvic-zajima/pravidla-odmeny-az-300-korun-kazdy-mesic/",
     "detailUrl": "https://bankovnibonusy.cz/banky/airbankO2.html",
     "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
-  },
-  {
-    "id": "mbank-business",
-    "bankName": "mBank",
-    "accountName": "mKonto Business",
-    "bonusAmount": "Až 3 000 Kč",
-    "requirements": [
-      "Založení prvního podnikatelského účtu s kódem BONUS",
-      "Aktivní využívání platební karty",
-      "Funguje jako 5% cashback z nákupů (např. na čerpacích stanicích)"
-    ],
-    "monthlyFee": "0 Kč",
-    "link": "https://www.mbank.cz/",
-    "detailUrl": "https://bankovnibonusy.cz/banky/mbank.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/mbank.png"
   }
 ]
