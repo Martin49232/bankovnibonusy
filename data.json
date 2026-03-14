@@ -6,7 +6,8 @@
     "bonusAmount": "3 000 Kč",
     "requirements": [
       "Založení účtu online",
-      "Minimálně 3 platby kartou měsíčně po dobu prvních 6 měsíců"
+      "10 plateb kartou měsíčně po dobu prvních 6 měsíců",
+      "Platí pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
     "link": "https://onb.rb.cz/onb-web?mgm=ra0al7",
@@ -21,7 +22,8 @@
     "requirements": [
       "Registrace telefonního čísla na zvací stránce",
       "Založení a aktivace účtu do 45 dnů od registrace",
-      "5 plateb kartou v měsíci založení účtu nebo v měsíci následujícím"
+      "5 plateb kartou v měsíci založení účtu nebo v měsíci následujícím",
+      "Platí pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.airbank.cz/pozvani-pratel/?referrer=pw4qr2",
@@ -35,8 +37,8 @@
     "bonusAmount": "1 000 Kč",
     "requirements": [
       "Založení s promo kódem",
-      "10x 100kč zpět za každou platbu",
-      "Platby telefonem/hodinkami"
+      "10 plateb kartou po dobu 60 dnů od založení",
+      "Platí pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.mbank.cz/mgm/ucty-mkonto.html?numer=martinv9748",
@@ -51,8 +53,7 @@
     "requirements": [
       "2 000 Kč za aktivitu: 2x měsíčně zaplaťte mobilem nebo hodinkami po dobu 2 měsíců",
       "2 000 Kč za mobilitu: Převeďte si svůj stávající účet k KB přes aplikaci (Služba převedení účtu)",
-      "Platí pro nové klienty (kteří neměli účet u KB v posledních 12 měsících)",
-      "Vedení tarifu Start je zdarma bez podmínek"
+      "Platí pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
@@ -67,8 +68,10 @@
     "bonusAmount": "1 500 Kč",
     "requirements": [
       "Příchozí platba min. 15 000 Kč měsíčně",
+      "Pokud vám ještě nebylo 27 let, stačí jen platit kartou",
       "Minimálně 5 plateb kartou měsíčně po dobu 3 měsíců",
-      "Pojištění ztráty karty na 1 rok zdarma jako bonus"
+      "Pojištění ztráty karty na 1 rok zdarma jako bonus",
+      "Platí pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
     "link": "https://www.csob.cz/lide/ucty/plus-konto",
@@ -84,7 +87,8 @@
       "Věk 15 až 26 let",
       "Aktivace debetní karty do 14 dní od založení (odměna 500 Kč)",
       "Platba kartou v následujícím měsíci (odměna 500 Kč)",
-      "Cashback 10 % z nákupů po dobu 6 měsíců (až 1 200 Kč)"
+      "Cashback 10 % z nákupů po dobu 6 měsíců (až 1 200 Kč)",
+      "Platí pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
     "link": "https://kampane.unicreditbank.cz/young", 
