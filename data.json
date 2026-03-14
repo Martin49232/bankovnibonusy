@@ -14,6 +14,21 @@
     "logoUrl": "https://bankovnibonusy.cz/images/raiffeisen.png"
   },
   {
+    "id": "airbank-doporuceni",
+    "bankName": "Air Bank",
+    "accountName": "Běžný účet",
+    "bonusAmount": "500 Kč",
+    "requirements": [
+      "Registrace telefonního čísla na zvací stránce",
+      "Založení a aktivace účtu do 45 dnů od registrace",
+      "5 plateb kartou v měsíci založení účtu nebo v měsíci následujícím"
+    ],
+    "monthlyFee": "0 Kč",
+    "link": "https://www.airbank.cz/pozvani-pratel/?referrer=pw4qr2",
+    "detailUrl": "https://bankovnibonusy.cz/banky/airbank.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
+  },
+  {
     "id": "mbank-mkonto",
     "bankName": "mBank",
     "accountName": "mKonto",
@@ -29,20 +44,22 @@
     "logoUrl": "https://bankovnibonusy.cz/images/mbank.png"
   },
   {
-    "id": "mbank-business",
-    "bankName": "mBank",
-    "accountName": "mKonto Business",
-    "bonusAmount": "Až 3 000 Kč",
+    "id": "kb-bonus-4000",
+    "bankName": "Komerční banka",
+    "accountName": "Tarif Start, Standard nebo Comfort",
+    "bonusAmount": "Až 4 000 Kč",
     "requirements": [
-      "Založení prvního podnikatelského účtu s kódem BONUS",
-      "Aktivní využívání platební karty",
-      "Funguje jako 5% cashback z nákupů (např. na čerpacích stanicích)"
+      "2 000 Kč za aktivitu: 2x měsíčně zaplaťte mobilem nebo hodinkami po dobu 2 měsíců",
+      "2 000 Kč za mobilitu: Převeďte si svůj stávající účet k KB přes aplikaci (Služba převedení účtu)",
+      "Platí pro nové klienty (kteří neměli účet u KB v posledních 12 měsících)",
+      "Vedení tarifu Start je zdarma bez podmínek"
     ],
     "monthlyFee": "0 Kč",
-    "link": "https://www.mbank.cz/",
-    "detailUrl": "https://bankovnibonusy.cz/banky/mbank.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/mbank.png"
+    "link": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
+    "detailUrl": "https://bankovnibonusy.cz/banky/kb.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/kb.png"
   },
+  
   {
     "id": "csob-pluskonto",
     "bankName": "ČSOB",
@@ -54,7 +71,7 @@
       "Pojištění ztráty karty na 1 rok zdarma jako bonus"
     ],
     "monthlyFee": "0 Kč",
-    "link": "https://www.csob.cz/",
+    "link": "https://www.csob.cz/lide/ucty/plus-konto",
     "detailUrl": "https://bankovnibonusy.cz/banky/csob.html",
     "logoUrl": "https://bankovnibonusy.cz/images/csob.png"
   },
@@ -70,7 +87,7 @@
       "Cashback 10 % z nákupů po dobu 6 měsíců (až 1 200 Kč)"
     ],
     "monthlyFee": "0 Kč",
-    "link": "https://www.unicreditbank.cz/",
+    "link": "https://kampane.unicreditbank.cz/young", 
     "detailUrl": "https://bankovnibonusy.cz/banky/unicredit.html",
     "logoUrl": "https://bankovnibonusy.cz/images/unicredit.png"
   },
@@ -90,19 +107,18 @@
     "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
   },
   {
-    "id": "kb-bonus-4000",
-    "bankName": "Komerční banka",
-    "accountName": "Tarif Start, Standard nebo Comfort",
-    "bonusAmount": "Až 4 000 Kč",
+    "id": "mbank-business",
+    "bankName": "mBank",
+    "accountName": "mKonto Business",
+    "bonusAmount": "Až 3 000 Kč",
     "requirements": [
-      "2 000 Kč za aktivitu: 2x měsíčně zaplaťte mobilem nebo hodinkami po dobu 2 měsíců",
-      "2 000 Kč za mobilitu: Převeďte si svůj stávající účet k KB přes aplikaci (Služba převedení účtu)",
-      "Platí pro nové klienty (kteří neměli účet u KB v posledních 12 měsících)",
-      "Vedení tarifu Start je zdarma bez podmínek"
+      "Založení prvního podnikatelského účtu s kódem BONUS",
+      "Aktivní využívání platební karty",
+      "Funguje jako 5% cashback z nákupů (např. na čerpacích stanicích)"
     ],
     "monthlyFee": "0 Kč",
-    "link": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
-    "detailUrl": "https://bankovnibonusy.cz/banky/kb.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/kb.png"
+    "link": "https://www.mbank.cz/",
+    "detailUrl": "https://bankovnibonusy.cz/banky/mbank.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/mbank.png"
   }
 ]
