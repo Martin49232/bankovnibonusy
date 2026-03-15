@@ -5,6 +5,7 @@
     "accountName": "Chytrý účet",
     "bonusAmount": "3 000 Kč",
     "requirements": [
+      "Registrace telefonního čísla",
       "Založení účtu online",
       "10 plateb kartou měsíčně po dobu prvních 6 měsíců",
       "Pouze pro nové klienty"
@@ -21,7 +22,7 @@
     "accountName": "Běžný účet",
     "bonusAmount": "500 Kč",
     "requirements": [
-      "Registrace telefonního čísla na zvací stránce",
+      "Registrace telefonního čísla",
       "Založení a aktivace účtu do 45 dnů od registrace",
       "5 plateb kartou v měsíci založení účtu nebo v měsíci následujícím",
       "Pouze pro nové klienty"
