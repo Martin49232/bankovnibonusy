@@ -306,5 +306,105 @@
 .btn-secondary:hover {
     background: #1e40af;
 }
+
+body.blog-page nav,
+body.blog-page header nav,
+body.blog-page footer,
+body.blog-page .article-nav,
+body.blog-page .article-links-bar,
+body.blog-page .global-links,
+body > header nav,
+body > .container > nav,
+nav[aria-label="Hlavní navigace"],
+nav[aria-label="Interní odkazy"],
+body > footer,
+footer[style*="margin-top: 32px"],
+footer[style*="margin-top: 60px"],
+footer[style*="margin-top: 20px"],
+main + nav,
+article + nav {
+    display: none !important;
+}
+
+body.blog-page .article-end-nav {
+    display: block !important;
+}
+
+.blog-page .article-end-nav {
+    display: block !important;
+    margin-top: 42px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px 26px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.04);
+}
+
+.blog-page .article-end-nav h3 {
+    margin: 0 0 12px;
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+.blog-page .article-end-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+}
+
+.blog-page .article-end-nav a {
+    color: var(--primary);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.blog-page .article-end-nav a:hover {
+    color: #1e40af;
+}
+
+.article-content a,
+.article-body a,
+p a,
+li a,
+dd a,
+span a,
+section a {
+    color: var(--primary);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.article-content a:hover,
+.article-body a:hover,
+p a:hover,
+li a:hover,
+dd a:hover,
+span a:hover,
+section a:hover {
+    color: #1e40af;
+}
+
+.article-links-card {
+    margin-top: 32px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 22px 24px;
+}
+
+.article-links-card h3 {
+    margin: 0 0 12px;
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+.article-links {
+    margin: 0;
+    padding-left: 18px;
+    color: var(--text-muted);
+    line-height: 1.8;
+}
    
         
