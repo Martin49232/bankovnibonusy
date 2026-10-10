@@ -12,8 +12,8 @@
     ],
     "monthlyFee": "0 Kč",
     "status": "aktivní",
-    "endDate": "do 30. 11. 2026",
-    "expiresAt": "2026-11-30",
+    "endDate": "do odvolání",
+    "expiresAt": null,
     "link": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
     "detailUrl": "https://bankovnibonusy.cz/banky/kb.html",
     "logoUrl": "https://bankovnibonusy.cz/images/kb.png"
@@ -31,7 +31,7 @@
     ],
     "monthlyFee": "0 Kč",
     "status": "aktivní",
-    "endDate": "podle aktuální kampaně",
+    "endDate": "do odvolání",
     "expiresAt": null,
     "link": "https://www.unicreditbank.cz/",
     "detailUrl": "https://bankovnibonusy.cz/banky/unicredit.html",
@@ -49,10 +49,28 @@
     ],
     "monthlyFee": "0 Kč",
     "status": "aktivní",
-    "endDate": "podle aktuální nabídky",
+    "endDate": "do odvolání",
     "expiresAt": null,
     "link": "https://www.airbank.cz/",
     "detailUrl": "https://bankovnibonusy.cz/banky/airbankO2.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
+  },
+  {
+    "id": "airbank-bezny",
+    "bankName": "Air Bank",
+    "accountName": "Běžný účet",
+    "bonusAmount": "bonus dle aktuální kampaně",
+    "requirements": [
+      "Založení běžného účtu",
+      "Aktivní používání karty a účtu",
+      "Ověření aktuálních pravidel na webu banky"
+    ],
+    "monthlyFee": "0 Kč",
+    "status": "aktivní",
+    "endDate": "do odvolání",
+    "expiresAt": null,
+    "link": "https://www.airbank.cz/produkty/bezny-ucet/",
+    "detailUrl": "https://bankovnibonusy.cz/banky/airbank.html",
     "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
   },
   {
@@ -84,9 +102,9 @@
       "Podmínky se mění podle konkrétního programu"
     ],
     "monthlyFee": "0 Kč",
-    "status": "ukončeno",
-    "endDate": "31. 12. 2025",
-    "expiresAt": "2025-12-31",
+    "status": "aktivní",
+    "endDate": "do odvolání",
+    "expiresAt": null,
     "link": "https://www.mbank.cz/",
     "detailUrl": "https://bankovnibonusy.cz/banky/mbank.html",
     "logoUrl": "https://bankovnibonusy.cz/images/mbank.png"
@@ -108,23 +126,5 @@
     "link": "https://www.csob.cz/",
     "detailUrl": "https://bankovnibonusy.cz/banky/csob.html",
     "logoUrl": "https://bankovnibonusy.cz/images/csob.png"
-  },
-  {
-    "id": "airbank-bezny",
-    "bankName": "Air Bank",
-    "accountName": "Běžný účet",
-    "bonusAmount": "bez zvláštního sign-up bonusu",
-    "requirements": [
-      "Založení běžného účtu",
-      "Přímé ověření aktuální nabídky na webu banky",
-      "Výhody se liší podle věrnostního programu a promo akcí"
-    ],
-    "monthlyFee": "0 Kč",
-    "status": "ukončeno",
-    "endDate": "31. 12. 2024",
-    "expiresAt": "2024-12-31",
-    "link": "https://www.airbank.cz/produkty/bezny-ucet/",
-    "detailUrl": "https://bankovnibonusy.cz/banky/airbank.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
   }
 ]
