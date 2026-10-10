@@ -6,32 +6,30 @@
     <link rel="stylesheet" href="https://bankovnibonusy.cz/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Nezávislé srovnání bankovních bonusů a odměn za založení účtu. Aktuální nabídky bank v roce 2026: KB až 4 000 Kč, Raiffeisenbank až 3 000 Kč a další výhodné kampaně.">
-    <meta name="keywords" content="bankovní bonusy, odměna za založení účtu, peníze za účet, účet zdarma, banky ČR, bonusy od bank, bonusy od banky">
+    <meta name="description" content="Srovnání aktuálních bankovních bonusů pro nové klienty v ČR. Přehled nejvýhodnějších nabídek, podmínek a aktualizovaných kampaní.">
+    <meta name="keywords" content="bankovní bonusy, srovnání bonusů, nové klienty, banka bonus, bonus za účet, banky ČR">
     <meta name="robots" content="index,follow">
-    <meta property="og:title" content="Bankovní bonusy - Získejte peníze zdarma za založení účtu">
-    <meta property="og:description" content="Nezávislé srovnání bankovních bonusů a odměn za založení účtu. Aktuální nabídky bank v roce 2026: KB až 4 000 Kč, Raiffeisenbank až 3 000 Kč a další výhodné kampaně.">
+    <meta property="og:title" content="Bankovní bonusy v ČR | Přehled aktuálních nabídek">
+    <meta property="og:description" content="Srovnání aktuálních bankovních bonusů pro nové klienty v ČR. Přehled nejvýhodnějších nabídek, podmínek a aktualizovaných kampaní.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://bankovnibonusy.cz/images/bonusOG.jpg">
     <meta property="og:url" content="https://bankovnibonusy.cz/">
     <meta property="og:site_name" content="Bankovní Bonusy">
     <link rel="canonical" href="https://bankovnibonusy.cz/">
-    
-    <title>Bankovní Bonusy | Nejlepší bonusy v ČR</title>
-
+    <title>Bankovní bonusy v ČR | Aktuální přehled</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Bankovní Bonusy</h1>
-             <div style="margin: 60px auto 0 auto; max-width: 800px; color: var(--text-muted); font-size: 0.95rem; text-align: center; line-height: 1.6;">
-            <p>
-                Hledáte <strong>nejvýhodnější účet s bonusem</strong>? Tento web je zaměřený na jednu věc: <strong>založení účtu přes můj odkaz</strong>, aby si klient získal aktuální bonus a zároveň <strong>já dostal odměnu za doporučení</strong>. V roce 2026 české banky stále přinášejí zajímavé promo akce, a proto právě tady shrnujeme ty nejaktuálnější nabídky se skutečnými podmínkami a správným partnerským odkazem: <strong>KB až 4 000 Kč</strong>, <strong>Raiffeisenbank až 3 000 Kč</strong> a další kampaně pro nové klienty.
-            </p>
-            <p style="margin-top: 14px; color: var(--text-muted);">
-                <strong>Jak to funguje:</strong> vyberete banku, kliknete na odkaz, založíte účet podle aktuálních pravidel banky a bonus se připsává na váš účet. Pokud je pro danou nabídku nutné použít konkrétní kód nebo partnerský parametr, je to v odkazovaném landing page vždy uvedeno.
-            </p>
-        </div>
+            <h1>Bankovní bonusy</h1>
+            <div style="margin: 30px auto 0 auto; max-width: 840px; color: var(--text-muted); font-size: 0.98rem; text-align: center; line-height: 1.7;">
+                <p>
+                    Na této stránce srovnáváme aktuální bonusy pro nové klienty v České republice. Cílem je přehledně ukázat, která banka nabízí nejvyšší jednorázový bonus, kdy je výhodnější zvolit pravidelný cashback a jaké podmínky je potřeba splnit.
+                </p>
+                <p style="margin-top: 12px;">
+                    Všechny nabídky uvádíme podle veřejně dostupných podmínek bank a aktualizujeme je podle aktuální kampaně. Před založením účtu je vždy vhodné ověřit oficiální pravidla na webu banky.
+                </p>
+            </div>
         </header>
 
         <div style="text-align: center; margin: 0 auto 28px auto; max-width: 900px;">
@@ -39,7 +37,6 @@
         </div>
 
         <div id="deals-container" class="grid"></div>
-        
     </div>
 
     <script>
@@ -55,15 +52,15 @@
 
         function renderDeals(deals) {
             const container = document.getElementById('deals-container');
-            
+
+            if (!container) return;
+
             deals.forEach(deal => {
                 const reqList = deal.requirements.map(req => `<li>${req}</li>`).join('');
-                
                 const webpUrl = deal.logoUrl.replace('.png', '.webp');
-                
                 const card = document.createElement('div');
                 card.className = 'card';
-        
+
                 card.innerHTML = `
                     <div class="card-header">
                         <picture>
@@ -72,19 +69,18 @@
                         </picture>
                         <div class="bank-info">
                             <h2 class="bank-name">${deal.bankName}</h2>
-                            <div class="meta">${deal.accountName} | Vedení: <strong>${deal.monthlyFee}</strong><br>Platnost akce do: <strong><span style="color: #16a34a;">${deal.endDate}</span></strong></div>
+                            <div class="meta">${deal.accountName} | Vedení: <strong>${deal.monthlyFee}</strong><br>Platnost: <strong><span style="color: #16a34a;">${deal.endDate}</span></strong></div>
                         </div>
-                    
                     </div>
-                    
+
                     <div class="bonus-wrapper">
-                        <span class="bonus-label">Odměna pro vás</span>
+                        <span class="bonus-label">Bonus pro nové klienty</span>
                         <div class="bonus">${deal.bonusAmount}</div>
                     </div>
 
                     <div class="req-title">Podmínky získání:</div>
                     <ul class="requirements">${reqList}</ul>
-                    
+
                     <a href="${deal.detailUrl}" class="btn">Více informací</a>
                 `;
                 container.appendChild(card);
@@ -93,37 +89,38 @@
     </script>
 
     <div class="faq-section" style="max-width: 800px; margin: 60px auto 20px auto;">
-            <h2 style="text-align: center; color: var(--primary); margin-bottom: 30px;">Často kladené dotazy (FAQ)</h2>
-            
-            <div class="card" style="margin-bottom: 20px; padding: 20px;">
-                <h3 style="margin-top: 0; color: var(--text-main); font-size: 1.1rem;">Jak funguje doporučení přes váš odkaz?</h3>
-                <p style="color: var(--text-muted); margin-bottom: 0;">Vyberete si banku, otevřete přes náš odkaz oficiální stránku nebo promo landing page, založíte účet podle aktuálních pravidel a získáte bonus. Zároveň je pro nás tohle partnerský přístup, který může přinést odměnu za doporučení. Vždy se řídíme aktuálními podmínkami banky a neprodáváme falešné kódy.</p>
-            </div>
-            
-            <div class="card" style="margin-bottom: 20px; padding: 20px;">
-                <h3 style="margin-top: 0; color: var(--text-main); font-size: 1.1rem;">Je založení účtu s bonusem opravdu zdarma?</h3>
-                <p style="color: var(--text-muted); margin-bottom: 0;">Ano, všechny banky v našem srovnání nabízí založení i vedení účtu zcela bez poplatků. Neplatíte nic ani za zrušení účtu.</p>
-            </div>
-            
-            <div class="card" style="margin-bottom: 20px; padding: 20px;">
-                <h3 style="margin-top: 0; color: var(--text-main); font-size: 1.1rem;">Kdy mi bonus dorazí na účet?</h3>
-                <p style="color: var(--text-muted); margin-bottom: 0;">Výplata odměny závisí na podmínkách konkrétní banky. U některých kampaň je bonus rozdělen do měsíčních částí, u jiných se vyplácí jednorázově po splnění podmínek. Vždy je důležité zkontrolovat aktuální pravidla konkrétní banky.</p>
-            </div>
-            
-            <div class="card" style="margin-bottom: 20px; padding: 20px;">
-                <h3 style="margin-top: 0; color: var(--text-main); font-size: 1.1rem;">Mohu získat odměnu u banky, kde už mám účet?</h3>
-                <p style="color: var(--text-muted); margin-bottom: 0;">Většina těchto akcí je určena výhradně pro nové klienty. Standardně platí, že byste u dané banky neměli mít účet v posledních 6 až 12 měsících. Pokud už účet máte, můžete využít spíše programy typu "Doporučte známého".</p>
-            </div>
+        <h2 style="text-align: center; color: var(--primary); margin-bottom: 30px;">Často kladené dotazy</h2>
+
+        <div class="card" style="margin-bottom: 20px; padding: 20px;">
+            <h3 style="margin-top: 0; color: var(--text-main); font-size: 1.1rem;">Jak poznám, že je bonus aktuální?</h3>
+            <p style="color: var(--text-muted); margin-bottom: 0;">Zveřejněný bonus ověřujeme podle aktuálních podmínek banky a aktuálně platné kampaně. Vždy je vhodné před založením účtu zkontrolovat oficiální stránku banky.</p>
         </div>
-</body>
-<div style="text-align: center; margin: 40px 0 12px 0;">
-    <a href="blog/jak-ziskat-bonus.html" style="font-weight: bold; color: var(--primary); text-decoration: underline; font-size: 1.1rem;">
-       Přečtěte si náš článek: Jak získat nejlepší bankovní bonusy a peníze za účet v roce 2026?
-    </a>
-    <div style="margin-top: 14px;">
-        <a href="blog/" style="display: inline-block; background: var(--primary); color: white; text-decoration: none; padding: 12px 22px; border-radius: 8px; font-weight: 600; font-size: 0.98rem;">
-            Naše další články
-        </a>
+
+        <div class="card" style="margin-bottom: 20px; padding: 20px;">
+            <h3 style="margin-top: 0; color: var(--text-main); font-size: 1.1rem;">Je založení účtu s bonusem opravdu zdarma?</h3>
+            <p style="color: var(--text-muted); margin-bottom: 0;">Většina bank nabízí zřízení a vedení běžného účtu bez poplatků. Vždy je ale důležité zkontrolovat konkrétní tarif, protože některé programy mohou mít podmínky vázané na aktivitu nebo měsíční min. obrat.</p>
+        </div>
+
+        <div class="card" style="margin-bottom: 20px; padding: 20px;">
+            <h3 style="margin-top: 0; color: var(--text-main); font-size: 1.1rem;">Kdy se bonus připíše?</h3>
+            <p style="color: var(--text-muted); margin-bottom: 0;">Doba vyplacení se liší podle banky. U některých nabídek se bonus připisuje jednorázově po splnění podmínek, u jiných postupně v následujících měsících.</p>
+        </div>
+
+        <div class="card" style="margin-bottom: 20px; padding: 20px;">
+            <h3 style="margin-top: 0; color: var(--text-main); font-size: 1.1rem;">Mohu získat bonus, pokud už mám u banky účet?</h3>
+            <p style="color: var(--text-muted); margin-bottom: 0;">Většina promo akcí je určena výhradně pro nové klienty. Pokud už u banky účet máte, je vhodné zkontrolovat, zda má banka zvláštní nabídku pro stávající klienty nebo jinou formu věrnostního programu.</p>
+        </div>
     </div>
-</div>
+
+    <div style="text-align: center; margin: 40px 0 12px 0;">
+        <a href="blog/jak-ziskat-bonus.html" style="font-weight: bold; color: var(--primary); text-decoration: underline; font-size: 1.1rem;">
+            Přečtěte si článek: Jak porovnávat bankovní bonusy a vybrat vhodný účet?
+        </a>
+        <div style="margin-top: 14px;">
+            <a href="blog/" style="display: inline-block; background: var(--primary); color: white; text-decoration: none; padding: 12px 22px; border-radius: 8px; font-weight: 600; font-size: 0.98rem;">
+                Naše další články
+            </a>
+        </div>
+    </div>
+</body>
 </html>

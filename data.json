@@ -1,14 +1,14 @@
 [
   {
-    "id": "kb-bonus-4000",
+    "id": "kb-tarif-start",
     "bankName": "Komerční banka",
     "accountName": "Tarif Start",
     "bonusAmount": "až 4 000 Kč",
     "requirements": [
-      "Založení nového běžného účtu",
-      "V každém z prvních 3 měsíců splnit podmínku 5 plateb kartou",
-      "V každém z prvních 3 měsíců poslat alespoň 15 000 Kč na účet",
-      "Akce je určena pro nové klienty"
+      "Jste novým klientem banky",
+      "Po dobu 3 měsíců splníte podmínku 5 plateb kartou měsíčně",
+      "V každém z těchto měsíců obdržíte alespoň 15 000 Kč na účet",
+      "Bonus se připisuje podle oficiálních pravidel KB"
     ],
     "monthlyFee": "0 Kč",
     "status": "aktivní",
@@ -17,6 +17,43 @@
     "link": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
     "detailUrl": "https://bankovnibonusy.cz/banky/kb.html",
     "logoUrl": "https://bankovnibonusy.cz/images/kb.png"
+  },
+  {
+    "id": "unicredit-young",
+    "bankName": "UniCredit Bank",
+    "accountName": "OPEN Young",
+    "bonusAmount": "až 2 200 Kč",
+    "requirements": [
+      "Jste klient ve věku 15 až 26 let",
+      "Účet si založíte jako nový klient banky",
+      "Splníte podmínky aktivity a používání karty",
+      "Část bonusu je formou cashbacku nebo bonusu za aktivitu"
+    ],
+    "monthlyFee": "0 Kč",
+    "status": "aktivní",
+    "endDate": "podle aktuální kampaně",
+    "expiresAt": null,
+    "link": "https://www.unicreditbank.cz/",
+    "detailUrl": "https://bankovnibonusy.cz/banky/unicredit.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/unicredit.png"
+  },
+  {
+    "id": "airbank-unity",
+    "bankName": "Air Bank + O2",
+    "accountName": "Program Unity",
+    "bonusAmount": "až 300 Kč / měsíc",
+    "requirements": [
+      "Aktivní využívání služeb Air Bank a O2",
+      "Pravidelné placení kartou a aktivita na účtu",
+      "Podmínky programu se ověřují na oficiální stránce banky"
+    ],
+    "monthlyFee": "0 Kč",
+    "status": "aktivní",
+    "endDate": "podle aktuální nabídky",
+    "expiresAt": null,
+    "link": "https://www.airbank.cz/",
+    "detailUrl": "https://bankovnibonusy.cz/banky/airbankO2.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
   },
   {
     "id": "raiffeisen-chytry",
@@ -30,9 +67,9 @@
     ],
     "monthlyFee": "0 Kč",
     "status": "ukončeno",
-    "endDate": "Kampaň ukončena; platnost skončila 31. 12. 2025",
+    "endDate": "Kampaň ukončena; poslední známá verze akce byla v roce 2025",
     "expiresAt": "2025-12-31",
-    "link": "https://onb.rb.cz/onb-web?mgm=ra0al7",
+    "link": "https://www.raiffeisenbank.cz/",
     "detailUrl": "https://bankovnibonusy.cz/banky/raiffeisen.html",
     "logoUrl": "https://bankovnibonusy.cz/images/raiffeisen.png"
   },
@@ -44,33 +81,15 @@
     "requirements": [
       "Založení účtu pro nové klienty",
       "Aktivní používání karty podle aktuální kampaně",
-      "Podmínky se mohou měnit podle banky"
+      "Podmínky se mění podle konkrétního programu"
     ],
     "monthlyFee": "0 Kč",
     "status": "ukončeno",
-    "endDate": "Kampaň ukončena; platnost skončila 31. 12. 2025",
+    "endDate": "Kampaň v běžné podobě byla ukončena",
     "expiresAt": "2025-12-31",
-    "link": "https://www.mbank.cz/ucty/mkonto",
+    "link": "https://www.mbank.cz/",
     "detailUrl": "https://bankovnibonusy.cz/banky/mbank.html",
     "logoUrl": "https://bankovnibonusy.cz/images/mbank.png"
-  },
-  {
-    "id": "unicredit-student",
-    "bankName": "UniCredit Bank",
-    "accountName": "Studentský účet OPEN Young",
-    "bonusAmount": "až 2 200 Kč",
-    "requirements": [
-      "Věk 15 až 26 let",
-      "Aktivace karty a splnění podmínek aktivity",
-      "Cashback a bonus podle aktuální kampaně"
-    ],
-    "monthlyFee": "0 Kč",
-    "status": "ukončeno",
-    "endDate": "Kampaň ukončena; platnost skončila 30. 06. 2025",
-    "expiresAt": "2025-06-30",
-    "link": "https://kampane.unicreditbank.cz/young",
-    "detailUrl": "https://bankovnibonusy.cz/banky/unicredit.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/unicredit.png"
   },
   {
     "id": "csob-pluskonto",
@@ -80,13 +99,13 @@
     "requirements": [
       "Založení nového účtu",
       "Aktivní využívání karty a bankovní služby",
-      "Bonus a cashback se dle akce liší"
+      "Bonus a cashback se liší podle konkrétní nabídky"
     ],
     "monthlyFee": "0 Kč",
     "status": "ukončeno",
-    "endDate": "Kampaň ukončena; platnost skončila 31. 12. 2024",
-    "expiresAt": "2024-12-31",
-    "link": "https://www.csob.cz/lide/ucty/plus-konto",
+    "endDate": "Kampaň v této podobě již není aktuální",
+    "expiresAt": "2025-12-31",
+    "link": "https://www.csob.cz/",
     "detailUrl": "https://bankovnibonusy.cz/banky/csob.html",
     "logoUrl": "https://bankovnibonusy.cz/images/csob.png"
   },
@@ -94,36 +113,18 @@
     "id": "airbank-bezny",
     "bankName": "Air Bank",
     "accountName": "Běžný účet",
-    "bonusAmount": "cashback a výhody za věrnost",
+    "bonusAmount": "bez zvláštního sign-up bonusu",
     "requirements": [
-      "Založení účtu s online aktivací",
-      "Pravidelné využívání účtu a karty",
-      "Aktuální bonusy se mohou měnit podle kampaně"
+      "Založení běžného účtu",
+      "Přímé ověření aktuální nabídky na webu banky",
+      "Výhody se liší podle věrnostního programu a promo akcí"
     ],
     "monthlyFee": "0 Kč",
     "status": "ukončeno",
-    "endDate": "Kampaň ukončena; platnost skončila 31. 12. 2025",
-    "expiresAt": "2025-12-31",
+    "endDate": "Bez zvláštního přihlašovacího bonusu v aktuální podobě",
+    "expiresAt": null,
     "link": "https://www.airbank.cz/produkty/bezny-ucet/",
     "detailUrl": "https://bankovnibonusy.cz/banky/airbank.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
-  },
-  {
-    "id": "airbank-unity",
-    "bankName": "Air Bank + O2",
-    "accountName": "Program Unity",
-    "bonusAmount": "měsíční bonusy podle programu",
-    "requirements": [
-      "Připojení služeb O2 a Air Bank",
-      "Pravidelné používání účtu a karty",
-      "Podmínky bonusu se ověřují podle aktuální kampaně"
-    ],
-    "monthlyFee": "0 Kč",
-    "status": "ukončeno",
-    "endDate": "Kampaň ukončena; platnost skončila 31. 12. 2025",
-    "expiresAt": "2025-12-31",
-    "link": "https://www.airbank.cz/",
-    "detailUrl": "https://bankovnibonusy.cz/banky/airbankO2.html",
     "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
   }
 ]
