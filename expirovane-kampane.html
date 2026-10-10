@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Historické a expirované bankovní kampaně pro srovnání starších nabídek a bonusů pro nové klienty.">
+    <meta name="robots" content="index,follow">
+    <title>Expirovane kampaně | Starší bankovní nabídky</title>
+    <link rel="stylesheet" href="https://bankovnibonusy.cz/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Expirovane kampaně</h1>
+            <p class="subtitle">Starší bankovní nabídky a historie promo akcí pro srovnání, pokud hledáte, jak se bonusy měnily v čase.</p>
+            <div style="margin-top: 24px;">
+                <a href="/" style="display: inline-block; background: var(--primary); color: white; text-decoration: none; padding: 12px 20px; border-radius: 8px; font-weight: 700;">Zpět na aktuální nabídky</a>
+            </div>
+        </header>
+
+        <div id="expired-deals-container" class="grid"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('data.json')
+                .then(response => {
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    return response.json();
+                })
+                .then(data => renderDeals(data.filter(deal => deal.status === 'ukončeno')))
+                .catch(error => console.error('Error loading data:', error));
+        });
+
+        function renderDeals(deals) {
+            const container = document.getElementById('expired-deals-container');
+
+            if (!deals.length) {
+                container.innerHTML = `
+                    <div class="card" style="grid-column: 1 / -1; text-align: center;">
+                        <h2 style="margin-top: 0;">Žádné expirované kampaně</h2>
+                        <p style="margin-bottom: 0; color: var(--text-muted);">Momentálně nejsou k dispozici žádné historické nabídky ke srovnání.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            deals.forEach(deal => {
+                const reqList = deal.requirements.map(req => `<li>${req}</li>`).join('');
+                const webpUrl = deal.logoUrl.replace('.png', '.webp');
+
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                    <div class="card-header">
+                        <picture>
+                            <source srcset="${webpUrl}" type="image/webp">
+                            <img src="${deal.logoUrl}" alt="${deal.bankName} logo" loading="lazy">
+                        </picture>
+                        <div class="bank-info">
+                            <h2 class="bank-name">${deal.bankName}</h2>
+                            <div class="meta">${deal.accountName} | Vedení: <strong>${deal.monthlyFee}</strong><br>Platnost: <strong><span style="color: #b91c1c;">${deal.endDate}</span></strong></div>
+                        </div>
+                    </div>
+
+                    <div class="bonus-wrapper" style="background: #fff1f2; border-color: #fda4af;">
+                        <span class="bonus-label" style="color: #b91c1c;">Historická odměna</span>
+                        <div class="bonus" style="color: #b91c1c;">${deal.bonusAmount}</div>
+                    </div>
+
+                    <div class="req-title">Podmínky kampaně:</div>
+                    <ul class="requirements">${reqList}</ul>
+
+                    <a href="${deal.detailUrl}" class="btn" style="background: #475569;">Zobrazit detail</a>
+                `;
+                container.appendChild(card);
+            });
+        }
+    </script>
+</body>
+</html>

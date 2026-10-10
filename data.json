@@ -11,7 +11,9 @@
       "Akce je určena pro nové klienty"
     ],
     "monthlyFee": "0 Kč",
+    "status": "aktivní",
     "endDate": "do 30. 11. 2026",
+    "expiresAt": "2026-11-30",
     "link": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
     "detailUrl": "https://bankovnibonusy.cz/banky/kb.html",
     "logoUrl": "https://bankovnibonusy.cz/images/kb.png"
@@ -27,7 +29,9 @@
       "Bonus se vyplácí podle aktuálních podmínek banky"
     ],
     "monthlyFee": "0 Kč",
-    "endDate": "podle aktuální kampaně",
+    "status": "ukončeno",
+    "endDate": "Kampaň ukončena; platnost skončila 31. 12. 2025",
+    "expiresAt": "2025-12-31",
     "link": "https://onb.rb.cz/onb-web?mgm=ra0al7",
     "detailUrl": "https://bankovnibonusy.cz/banky/raiffeisen.html",
     "logoUrl": "https://bankovnibonusy.cz/images/raiffeisen.png"
@@ -43,7 +47,9 @@
       "Podmínky se mohou měnit podle banky"
     ],
     "monthlyFee": "0 Kč",
-    "endDate": "podle aktuální kampaně",
+    "status": "ukončeno",
+    "endDate": "Kampaň ukončena; platnost skončila 31. 12. 2025",
+    "expiresAt": "2025-12-31",
     "link": "https://www.mbank.cz/ucty/mkonto",
     "detailUrl": "https://bankovnibonusy.cz/banky/mbank.html",
     "logoUrl": "https://bankovnibonusy.cz/images/mbank.png"
@@ -59,7 +65,9 @@
       "Cashback a bonus podle aktuální kampaně"
     ],
     "monthlyFee": "0 Kč",
-    "endDate": "podle aktuální kampaně",
+    "status": "ukončeno",
+    "endDate": "Kampaň ukončena; platnost skončila 30. 06. 2025",
+    "expiresAt": "2025-06-30",
     "link": "https://kampane.unicreditbank.cz/young",
     "detailUrl": "https://bankovnibonusy.cz/banky/unicredit.html",
     "logoUrl": "https://bankovnibonusy.cz/images/unicredit.png"
@@ -75,7 +83,9 @@
       "Bonus a cashback se dle akce liší"
     ],
     "monthlyFee": "0 Kč",
-    "endDate": "podle aktuální kampaně",
+    "status": "ukončeno",
+    "endDate": "Kampaň ukončena; platnost skončila 31. 12. 2024",
+    "expiresAt": "2024-12-31",
     "link": "https://www.csob.cz/lide/ucty/plus-konto",
     "detailUrl": "https://bankovnibonusy.cz/banky/csob.html",
     "logoUrl": "https://bankovnibonusy.cz/images/csob.png"
@@ -91,7 +101,9 @@
       "Aktuální bonusy se mohou měnit podle kampaně"
     ],
     "monthlyFee": "0 Kč",
-    "endDate": "podle aktuální kampaně",
+    "status": "ukončeno",
+    "endDate": "Kampaň ukončena; platnost skončila 31. 12. 2025",
+    "expiresAt": "2025-12-31",
     "link": "https://www.airbank.cz/produkty/bezny-ucet/",
     "detailUrl": "https://bankovnibonusy.cz/banky/airbank.html",
     "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
@@ -107,7 +119,9 @@
       "Podmínky bonusu se ověřují podle aktuální kampaně"
     ],
     "monthlyFee": "0 Kč",
-    "endDate": "podle aktuální kampaně",
+    "status": "ukončeno",
+    "endDate": "Kampaň ukončena; platnost skončila 31. 12. 2025",
+    "expiresAt": "2025-12-31",
     "link": "https://www.airbank.cz/",
     "detailUrl": "https://bankovnibonusy.cz/banky/airbankO2.html",
     "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
