@@ -45,7 +45,7 @@
     "requirements": [
       "Aktivní využívání služeb Air Bank a O2",
       "Pravidelné placení kartou a aktivita na účtu",
-      "Podmínky programu se ověřují na oficiální stránce banky"
+      "Podmínky programu jsou uvedeny v pravidlech programu Unity"
     ],
     "monthlyFee": "0 Kč",
     "status": "aktivní",
@@ -59,11 +59,11 @@
     "id": "airbank-bezny",
     "bankName": "Air Bank",
     "accountName": "Běžný účet",
-    "bonusAmount": "bonus dle aktuální kampaně",
+    "bonusAmount": "500 Kč",
     "requirements": [
       "Založení běžného účtu",
-      "Aktivní používání karty a účtu",
-      "Ověření aktuálních pravidel na webu banky"
+      "Pravidelné používání účtu a karty",
+      "Bonus 500 Kč je poskytován podle pravidel programu Air Bank"
     ],
     "monthlyFee": "0 Kč",
     "status": "aktivní",
@@ -81,7 +81,7 @@
     "requirements": [
       "Založení a aktivace Chytrého účtu",
       "Pravidelné používání karty a měsíční aktivita",
-      "Bonus se vyplácí podle aktuálních podmínek banky"
+      "Bonus se vyplácí podle pravidel programu Chytrý účet"
     ],
     "monthlyFee": "0 Kč",
     "status": "ukončeno",
@@ -98,8 +98,8 @@
     "bonusAmount": "až 1 000 Kč",
     "requirements": [
       "Založení účtu pro nové klienty",
-      "Aktivní používání karty podle aktuální kampaně",
-      "Podmínky se mění podle konkrétního programu"
+      "Pravidelné používání karty a účtu",
+      "Bonus se vyplácí podle pravidel programu mKonto"
     ],
     "monthlyFee": "0 Kč",
     "status": "aktivní",
@@ -113,11 +113,11 @@
     "id": "csob-pluskonto",
     "bankName": "ČSOB",
     "accountName": "Plus Konto",
-    "bonusAmount": "podle aktuální kampaně",
+    "bonusAmount": "bonus dle programu Plus Konto",
     "requirements": [
       "Založení nového účtu",
       "Aktivní využívání karty a bankovní služby",
-      "Bonus a cashback se liší podle konkrétní nabídky"
+      "Bonus a cashback se vyplácely podle programu Plus Konto"
     ],
     "monthlyFee": "0 Kč",
     "status": "ukončeno",
