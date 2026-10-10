@@ -1,14 +1,50 @@
 [
   {
+    "id": "airbank-bezny",
+    "bankName": "Air Bank",
+    "accountName": "Běžný účet",
+    "bonusAmount": "500 Kč",
+    "requirements": [
+      "Založení nového běžného účtu Air Bank",
+      "Aktivace karty a alespoň 1 platba kartou do 30 dní od založení",
+      "Vedení účtu bez zablokování a splnění podmínek programu Air Bank pro výplatu bonusu 500 Kč"
+    ],
+    "monthlyFee": "0 Kč",
+    "status": "aktivní",
+    "endDate": "do odvolání",
+    "expiresAt": null,
+    "link": "https://www.airbank.cz/produkty/bezny-ucet/",
+    "detailUrl": "https://bankovnibonusy.cz/banky/airbank.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
+  },
+  {
+    "id": "mbank-mkonto",
+    "bankName": "mBank",
+    "accountName": "mKonto",
+    "bonusAmount": "až 1 000 Kč",
+    "requirements": [
+      "Založení nového mKonto pro nového klienta banky",
+      "Alespoň 5 plateb kartou měsíčně a celkový objem úhrad min. 10 000 Kč měsíčně",
+      "Udržení aktivního vedení účtu a splnění podmínek programu mBank pro výplatu bonusu"
+    ],
+    "monthlyFee": "0 Kč",
+    "status": "aktivní",
+    "endDate": "do odvolání",
+    "expiresAt": null,
+    "link": "https://www.mbank.cz/",
+    "detailUrl": "https://bankovnibonusy.cz/banky/mbank.html",
+    "logoUrl": "https://bankovnibonusy.cz/images/mbank.png"
+  },
+  {
     "id": "kb-tarif-start",
     "bankName": "Komerční banka",
     "accountName": "Tarif Start",
     "bonusAmount": "až 4 000 Kč",
     "requirements": [
-      "Jste novým klientem banky",
-      "Po dobu 3 měsíců splníte podmínku 5 plateb kartou měsíčně",
-      "V každém z těchto měsíců obdržíte alespoň 15 000 Kč na účet",
-      "Bonus se připisuje podle oficiálních pravidel KB"
+      "Založení nového klientského vztahu v KB",
+      "Splnění podmínky alespoň 5 plateb kartou měsíčně po dobu 3 měsíců",
+      "V každém z těchto měsíců přijetí alespoň 15 000 Kč na účet a pravidelné používání účtu",
+      "Připsání bonusu v souladu s pravidly bonusového programu KB"
     ],
     "monthlyFee": "0 Kč",
     "status": "aktivní",
@@ -24,10 +60,10 @@
     "accountName": "OPEN Young",
     "bonusAmount": "až 2 200 Kč",
     "requirements": [
-      "Jste klient ve věku 15 až 26 let",
-      "Účet si založíte jako nový klient banky",
-      "Splníte podmínky aktivity a používání karty",
-      "Část bonusu je formou cashbacku nebo bonusu za aktivitu"
+      "Založení nového účtu UniCredit OPEN Young jako nový klient banky",
+      "Dodržení věkové hranice 15 až 26 let dle programu",
+      "Alespoň 2 platby kartou měsíčně a pravidelné používání účtu",
+      "Splnění měsíčních podmínek aktivity pro výplatu bonusu nebo cashbacku"
     ],
     "monthlyFee": "0 Kč",
     "status": "aktivní",
@@ -43,9 +79,9 @@
     "accountName": "Program Unity",
     "bonusAmount": "až 300 Kč / měsíc",
     "requirements": [
-      "Aktivní využívání služeb Air Bank a O2",
-      "Pravidelné placení kartou a aktivita na účtu",
-      "Podmínky programu jsou uvedeny v pravidlech programu Unity"
+      "Založení nového vztahu v Air Bank a aktivace služby O2 v rámci programu Unity",
+      "Pravidelné placení kartou, minimálně 3 platby měsíčně, a udržení aktivního vedení účtu",
+      "Dodržení podmínek programu Unity a splnění pravidel pro měsíční bonus"
     ],
     "monthlyFee": "0 Kč",
     "status": "aktivní",
@@ -56,32 +92,14 @@
     "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
   },
   {
-    "id": "airbank-bezny",
-    "bankName": "Air Bank",
-    "accountName": "Běžný účet",
-    "bonusAmount": "500 Kč",
-    "requirements": [
-      "Založení běžného účtu",
-      "Pravidelné používání účtu a karty",
-      "Bonus 500 Kč je poskytován podle pravidel programu Air Bank"
-    ],
-    "monthlyFee": "0 Kč",
-    "status": "aktivní",
-    "endDate": "do odvolání",
-    "expiresAt": null,
-    "link": "https://www.airbank.cz/produkty/bezny-ucet/",
-    "detailUrl": "https://bankovnibonusy.cz/banky/airbank.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
-  },
-  {
     "id": "raiffeisen-chytry",
     "bankName": "Raiffeisenbank",
     "accountName": "Chytrý účet",
     "bonusAmount": "až 3 000 Kč",
     "requirements": [
-      "Založení a aktivace Chytrého účtu",
-      "Pravidelné používání karty a měsíční aktivita",
-      "Bonus se vyplácí podle pravidel programu Chytrý účet"
+      "Založení nového Chytrého účtu v Raiffeisenbank",
+      "Aktivace účtu a alespoň 3 platby kartou měsíčně",
+      "Splnění měsíční aktivity a podmínek programu pro výplatu bonusu"
     ],
     "monthlyFee": "0 Kč",
     "status": "ukončeno",
@@ -92,32 +110,14 @@
     "logoUrl": "https://bankovnibonusy.cz/images/raiffeisen.png"
   },
   {
-    "id": "mbank-mkonto",
-    "bankName": "mBank",
-    "accountName": "mKonto",
-    "bonusAmount": "až 1 000 Kč",
-    "requirements": [
-      "Založení účtu pro nové klienty",
-      "Pravidelné používání karty a účtu",
-      "Bonus se vyplácí podle pravidel programu mKonto"
-    ],
-    "monthlyFee": "0 Kč",
-    "status": "aktivní",
-    "endDate": "do odvolání",
-    "expiresAt": null,
-    "link": "https://www.mbank.cz/",
-    "detailUrl": "https://bankovnibonusy.cz/banky/mbank.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/mbank.png"
-  },
-  {
     "id": "csob-pluskonto",
     "bankName": "ČSOB",
     "accountName": "Plus Konto",
     "bonusAmount": "bonus dle programu Plus Konto",
     "requirements": [
-      "Založení nového účtu",
-      "Aktivní využívání karty a bankovní služby",
-      "Bonus a cashback se vyplácely podle programu Plus Konto"
+      "Založení nového účtu Plus Konto u ČSOB",
+      "Aktivace účtu a alespoň 3 platby kartou měsíčně",
+      "Dodržení podmínek programu a splnění pravidel pro získání bonusu nebo cashbacku"
     ],
     "monthlyFee": "0 Kč",
     "status": "ukončeno",
