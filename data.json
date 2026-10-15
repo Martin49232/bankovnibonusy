@@ -1,130 +1,774 @@
-[
-  {
-    "id": "airbank-bezny",
-    "bankName": "Air Bank",
-    "accountName": "Běžný účet",
-    "bonusAmount": "500 Kč",
-    "requirements": [
-      "Založení nového běžného účtu Air Bank",
-      "Aktivace karty a alespoň 1 platba kartou do 30 dní od založení",
-      "Vedení účtu bez zablokování a splnění podmínek programu Air Bank pro výplatu bonusu 500 Kč"
-    ],
-    "monthlyFee": "0 Kč",
-    "status": "aktivní",
-    "endDate": "do odvolání",
-    "expiresAt": null,
-    "link": "https://www.airbank.cz/produkty/bezny-ucet/",
-    "detailUrl": "https://bankovnibonusy.cz/banky/airbank.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
+{
+  "lastUpdated": "15. 10. 2026",
+  "totalPossibleBonus": "26 200 Kč",
+  "bonusHistory": {
+    "periods": ["2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],
+    "series": [
+      {
+        "id": "airbank",
+        "name": "Air Bank",
+        "color": "#7ab51d",
+        "values": [300, 500, 300, 500, 500, 1000, 500, 500]
+      },
+      {
+        "id": "raiffeisen",
+        "name": "Raiffeisenbank",
+        "color": "#d9a300",
+        "values": [1000, 1500, 1500, 1500, 3000, 3000, 3000, 6000]
+      },
+      {
+        "id": "csas",
+        "name": "Česká spořitelna",
+        "color": "#0052cc",
+        "values": [500, 500, 1000, 1000, 1500, 1500, 2000, 1200]
+      },
+      {
+        "id": "mbank",
+        "name": "mBank",
+        "color": "#008542",
+        "values": [1500, 1500, 1500, 1500, 2000, 2000, 2000, 1000]
+      },
+      {
+        "id": "partners",
+        "name": "Partners Banka",
+        "color": "#00a3ad",
+        "values": [0, 0, 0, 0, 0, 0, 500, 500]
+      },
+      {
+        "id": "kb",
+        "name": "Komerční banka",
+        "color": "#e2001a",
+        "values": [1000, 1500, 1500, 1500, 2000, 2500, 3000, 4000]
+      },
+      {
+        "id": "unicredit",
+        "name": "UniCredit Bank",
+        "color": "#8b0000",
+        "values": [500, 1000, 1000, 1500, 1500, 1500, 2000, 4000]
+      },
+      {
+        "id": "csob",
+        "name": "ČSOB",
+        "color": "#0099cc",
+        "values": [1000, 1000, 1500, 1500, 1500, 2000, 2500, 3000]
+      },
+      {
+        "id": "moneta",
+        "name": "MONETA Money Bank",
+        "color": "#002d72",
+        "values": [1000, 1500, 1500, 2000, 2000, 1500, 2500, 3000]
+      }
+    ]
   },
-  {
-    "id": "mbank-mkonto",
-    "bankName": "mBank",
-    "accountName": "mKonto",
-    "bonusAmount": "až 1 000 Kč",
-    "requirements": [
-      "Založení nového mKonto pro nového klienta banky",
-      "Alespoň 5 plateb kartou měsíčně a celkový objem úhrad min. 10 000 Kč měsíčně",
-      "Udržení aktivního vedení účtu a splnění podmínek programu mBank pro výplatu bonusu"
-    ],
-    "monthlyFee": "0 Kč",
-    "status": "aktivní",
-    "endDate": "do odvolání",
-    "expiresAt": null,
-    "link": "https://www.mbank.cz/",
-    "detailUrl": "https://bankovnibonusy.cz/banky/mbank.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/mbank.png"
-  },
-  {
-    "id": "kb-tarif-start",
-    "bankName": "Komerční banka",
-    "accountName": "Tarif Start",
-    "bonusAmount": "až 4 000 Kč",
-    "requirements": [
-      "Založení nového klientského vztahu v KB",
-      "Splnění podmínky alespoň 5 plateb kartou měsíčně po dobu 3 měsíců",
-      "V každém z těchto měsíců přijetí alespoň 15 000 Kč na účet a pravidelné používání účtu",
-      "Připsání bonusu v souladu s pravidly bonusového programu KB"
-    ],
-    "monthlyFee": "0 Kč",
-    "status": "aktivní",
-    "endDate": "do odvolání",
-    "expiresAt": null,
-    "link": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
-    "detailUrl": "https://bankovnibonusy.cz/banky/kb.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/kb.png"
-  },
-  {
-    "id": "unicredit-young",
-    "bankName": "UniCredit Bank",
-    "accountName": "OPEN Young",
-    "bonusAmount": "až 2 200 Kč",
-    "requirements": [
-      "Založení nového účtu UniCredit OPEN Young jako nový klient banky",
-      "Dodržení věkové hranice 15 až 26 let dle programu",
-      "Alespoň 2 platby kartou měsíčně a pravidelné používání účtu",
-      "Splnění měsíčních podmínek aktivity pro výplatu bonusu nebo cashbacku"
-    ],
-    "monthlyFee": "0 Kč",
-    "status": "aktivní",
-    "endDate": "do odvolání",
-    "expiresAt": null,
-    "link": "https://www.unicreditbank.cz/",
-    "detailUrl": "https://bankovnibonusy.cz/banky/unicredit.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/unicredit.png"
-  },
-  {
-    "id": "airbank-unity",
-    "bankName": "Air Bank + O2",
-    "accountName": "Program Unity",
-    "bonusAmount": "až 300 Kč / měsíc",
-    "requirements": [
-      "Založení nového vztahu v Air Bank a aktivace služby O2 v rámci programu Unity",
-      "Pravidelné placení kartou, minimálně 3 platby měsíčně, a udržení aktivního vedení účtu",
-      "Dodržení podmínek programu Unity a splnění pravidel pro měsíční bonus"
-    ],
-    "monthlyFee": "0 Kč",
-    "status": "aktivní",
-    "endDate": "do odvolání",
-    "expiresAt": null,
-    "link": "https://www.airbank.cz/",
-    "detailUrl": "https://bankovnibonusy.cz/banky/airbankO2.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/airbank.png"
-  },
-  {
-    "id": "raiffeisen-chytry",
-    "bankName": "Raiffeisenbank",
-    "accountName": "Chytrý účet",
-    "bonusAmount": "až 3 000 Kč",
-    "requirements": [
-      "Založení nového Chytrého účtu v Raiffeisenbank",
-      "Aktivace účtu a alespoň 3 platby kartou měsíčně",
-      "Splnění měsíční aktivity a podmínek programu pro výplatu bonusu"
-    ],
-    "monthlyFee": "0 Kč",
-    "status": "ukončeno",
-    "endDate": "31. 12. 2025",
-    "expiresAt": "2025-12-31",
-    "link": "https://www.raiffeisenbank.cz/",
-    "detailUrl": "https://bankovnibonusy.cz/banky/raiffeisen.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/raiffeisen.png"
-  },
-  {
-    "id": "csob-pluskonto",
-    "bankName": "ČSOB",
-    "accountName": "Plus Konto",
-    "bonusAmount": "bonus dle programu Plus Konto",
-    "requirements": [
-      "Založení nového účtu Plus Konto u ČSOB",
-      "Aktivace účtu a alespoň 3 platby kartou měsíčně",
-      "Dodržení podmínek programu a splnění pravidel pro získání bonusu nebo cashbacku"
-    ],
-    "monthlyFee": "0 Kč",
-    "status": "ukončeno",
-    "endDate": "31. 12. 2024",
-    "expiresAt": "2024-12-31",
-    "link": "https://www.csob.cz/",
-    "detailUrl": "https://bankovnibonusy.cz/banky/csob.html",
-    "logoUrl": "https://bankovnibonusy.cz/images/csob.png"
-  }
-]
+  "campaigns": [
+    {
+      "id": "airbank",
+      "slugBank": "airbank.html",
+      "slugBlog": "banka-airbank.html",
+      "name": "Air Bank",
+      "accountName": "Malý tarif  ",
+      "active": true,
+      "bonusAmount": 500,
+      "bonusText": "500 Kč",
+      "referralBonus": "Odměna za přivedení nového klienta přes zvací odkaz (až 10 pozvánek)",
+      "specialBonus": "Možnost získat dalších 300 Kč měsíčně s O2",
+      "validUntil": "Do odvolání",
+      "imageWebp": "/images/airbank.webp",
+      "imagePng": "/images/airbank.png",
+      "brandColor": "#95c11f",
+      "brandTextColor": "#111111",
+      "affiliateUrl": "https://www.airbank.cz/co-vas-nejvic-zajima/jak-se-stat-klientem-air-bank-na-doporuceni-pritele/",
+      "termsUrl": "https://www.airbank.cz/co-vas-nejvic-zajima/jak-se-stat-klientem-air-bank-na-doporuceni-pritele/",
+      "referralTermsUrl": "https://www.airbank.cz/co-vas-nejvic-zajima/jak-se-stat-klientem-air-bank-na-doporuceni-pritele/",
+      "shortDescription": "Zaregistrujte své telefonní číslo přes zvací odkaz, založte si běžný účet u Air Bank do 45 dnů a proveďte alespoň 5 plateb kartou do konce následujícího měsíce.",
+      "requirements": [
+        "Registrace čísla přes tlačítko Získat bonus níže (nutné pro aktivaci odměny)",
+        "Založení účtu v aplikaci My Air do 45 dnů od registrace",
+        "5 plateb kartou do konce následujícího měsíce (0 Kč minimální příjem)"
+      ],
+      "steps": [
+        "Klikněte na tlačítko Získat bonus na této stránce a zaregistrujte své telefonní číslo.",
+        "Stáhněte si aplikaci My Air a se stejným telefonním číslem si do 45 dnů založte běžný účet online přes BankID.",
+        "Proveďte alespoň 5 plateb kartou (plastovou nebo virtuální přes Apple Pay / Google Pay) v měsíci založení nebo v měsíci následujícím a Air Bank vám připíše 500 Kč."
+      ],
+      "blogTitle": "Air Bank bonus 500 Kč za založení účtu: Kompletní návod",
+      "blogPerex": "Při založení účtu u Air Bank přes zvací odkaz získáte odměnu 500 Kč za 5 běžných plateb kartou. Přečtěte si přesný postup.",
+      "blogContent": "<p>Běžný účet od <strong>Air Bank</strong> patří dlouhodobě k nejoblíbenějším účtům bez poplatků v České republice. Pokud si jej ale založíte napřímo přes hlavní stránku banky, nedostanete žádnou uvítací prémii. Pro získání <strong>bonusu 500 Kč</strong> je nutné před otevřením účtu zaregistrovat své telefonní číslo přes zvací tlačítko na této stránce.</p><h3>Jak přesně získat 500 Kč od Air Bank</h3><p>Celý proces zabere jen několik minut a nevyžaduje zasílání výplaty ani minimální měsíční obrat:</p><ol><li><strong>Registrace telefonního čísla:</strong> Nejprve přejděte přes tlačítko na zvací formulář a vyplňte své telefonní číslo. Tím systém Air Bank spáruje vaši budoucí žádost s nárokem na odměnu 500 Kč.</li><li><strong>Otevření účtu v aplikaci My Air:</strong> Do 45 dnů od registrace čísla si stáhněte mobilní aplikaci My Air a založte si běžný účet (Malý tarif je veden zcela zdarma).</li><li><strong>5 plateb kartou:</strong> V kalendářním měsíci, kdy se stanete klientem, nebo v měsíci bezprostředně následujícím zaplaťte alespoň 5krát debetní kartou v obchodě nebo na internetu.</li></ol><h3>Kombinace s odměnou 300 Kč měsíčně za O2</h3><p>Jakmile máte účet u Air Bank aktivní, můžete si v aplikaci zapnout program <strong>Unity</strong> (propojení s operátorem O2) a získávat dalších <strong>300 Kč každý měsíc</strong> (3 600 Kč ročně) při úhradě faktury O2 ve výši alespoň 600 Kč měsíčně.</p>"
+    },
+    {
+      "id": "raiffeisen",
+      "slugBank": "raiffeisen.html",
+      "slugBlog": "banka-raiffeisen.html",
+      "name": "Raiffeisenbank",
+      "accountName": "Chytrý účet  ",
+      "active": true,
+      "bonusAmount": 6000,
+      "bonusText": "Až 6 000 Kč",
+      "referralBonus": "1 000 Kč za osobní / 2 000 Kč za OSVČ účet pro doporučitele",
+      "specialBonus": "900 Kč pro děti a studenty (8–17 let)",
+      "validUntil": "31. 12. 2026",
+      "imageWebp": "/images/raiffeisen.webp",
+      "imagePng": "/images/raiffeisen.png",
+      "brandColor": "#fee600",
+      "brandTextColor": "#111111",
+      "affiliateUrl": "https://www.rb.cz/osobni/ucty/bezne-ucty/chytry-ucet",
+      "termsUrl": "https://www.rb.cz/podpora/podminky-akci/6x500-na-bezny-ucet",
+      "referralTermsUrl": "https://www.rb.cz/attachments/pi/pravidla-reklamni-akce/pravidla-reklamni-akce-financni-odmena-za-doporuceni.pdf",
+      "shortDescription": "Získejte 3 000 Kč (6× 500 Kč) za 10 plateb kartou měsíčně, nebo až 6 000 Kč (12× 500 Kč) formou cashbacku za potraviny či předplatné.",
+      "requirements": [
+        "Otevření žádosti přes tlačítko Získat bonus níže a volba varianty odměny",
+        "Nový klient (18+ let) bez běžného účtu u RB v posledních 6 měsících",
+        "10 plateb kartou měsíčně po dobu 6 až 12 měsíců (0 Kč minimální příjem)"
+      ],
+      "steps": [
+        "Klikněte na tlačítko Získat bonus, zaregistrujte své telefonní číslo a zvolte si jednu ze tří variant odměny (6× 500 Kč hotově, Potraviny 10 % zpět, nebo Stream a AI 50 % zpět).",
+        "Ověřte totožnost online přes BankID nebo dvěma doklady v mobilní aplikaci.",
+        "Každý kalendářní měsíc proveďte alespoň 10 plateb kartou v libovolné výši (bez podmínky minimálního příjmu).",
+        "Odměna až 500 Kč vám dorazí vždy do konce následujícího měsíce po dobu 6 nebo 12 měsíců."
+      ],
+      "blogTitle": "Raiffeisenbank bonus až 6 000 Kč k Chytrému účtu: Podmínky a srovnání variant",
+      "blogPerex": "Raiffeisenbank nabízí v roce 2026 volbu ze tří bonusů k bezplatnému Chytrému účtu. Podívejte se na přesné podmínky všech tří variant.",
+      "blogContent": "<p><strong>Raiffeisenbank</strong> drží v roce 2026 prvenství v celkové výši bonusu k běžnému účtu. K bezplatnému <strong>Chytrému účtu</strong> si po prokliku v online žádosti volíte jednu ze tří odměn, přičemž u žádné z nich banka nevyžaduje zasílání výplaty:</p><ul><li><strong>Varianta A – 3 000 Kč (6× 500 Kč):</strong> Stačí 10krát měsíčně zaplatit kartou jakoukoliv částku a banka vám vyplatí 500 Kč měsíčně po dobu 6 měsíců.</li><li><strong>Varianta B – Až 6 000 Kč za nákupy potravin (12× 500 Kč):</strong> Při splnění min. 10 plateb kartou měsíčně získáte 10 % zpět z nákupů v obchodech s potravinami (Lidl, Albert, Kaufland, Billa, Tesco, Penny, Globus, Rohlík.cz, Košík.cz) až do výše 500 Kč měsíčně po dobu 12 měsíců.</li><li><strong>Varianta C – Až 6 000 Kč za Stream a AI (12× 500 Kč):</strong> Při splnění min. 10 plateb kartou měsíčně získáte cashback 50 % z plateb za Netflix, Spotify, YouTube, Disney+, HBO Max, Apple, ChatGPT, Claude nebo Perplexity až do výše 500 Kč měsíčně po dobu 12 měsíců.</li></ul>"
+    },
+    {
+      "id": "mbank",
+      "slugBank": "mbank.html",
+      "slugBlog": "banka-mbank.html",
+      "name": "mBank",
+      "accountName": "mKonto  ",
+      "active": true,
+      "bonusAmount": 1000,
+      "bonusText": "1 000 Kč",
+      "referralBonus": "Až 1 000 Kč za každého přítele + prémie 1 000 Kč za každého třetího (max. 26 000 Kč)",
+      "specialBonus": "500 Kč pro děti (+ 500 Kč rodiči) / až 3 000 Kč pro OSVČ",
+      "validUntil": "31. 12. 2026",
+      "imageWebp": "/images/mbank.webp",
+      "imagePng": "/images/mbank.png",
+      "brandColor": "#008542",
+      "brandTextColor": "#ffffff",
+      "affiliateUrl": "https://www.mbank.cz/mgm/ucty-mkonto.html",
+      "termsUrl": "https://www.mbank.cz/informace-k-produktum/dokumenty-ke-stazeni/dokumenty/akce/doporucte-mbank_pravidla-leden2026.pdf",
+      "referralTermsUrl": "https://www.mbank.cz/mgm/ucty-mkonto.html",
+      "shortDescription": "Založte si mKonto s promo kódem a během prvních 60 dnů proveďte 10 plateb mobilem nebo hodinkami – za každou platbu získáte 100 Kč (celkem 1 000 Kč).",
+      "requirements": [
+        "Otevření žádosti přes tlačítko Získat bonus níže se zadáním akčního kódu",
+        "Nový klient starší 18 let zakládající účet mKonto online",
+        "10 plateb mobilem či hodinkami do 60 dnů (odměna 10× 100 Kč)"
+      ],
+      "steps": [
+        "Přejděte přes tlačítko Získat bonus na online žádost o bezplatný účet mKonto a vložte promo kód do pole Přicházím na základě akce.",
+        "Přidejte si kartu do Apple Pay, Google Pay, Garmin Pay nebo Xiaomi Pay.",
+        "Během prvních 60 dnů od založení účtu proveďte 10 plateb mobilem nebo hodinkami a získáte 10× 100 Kč (celkem 1 000 Kč)."
+      ],
+      "blogTitle": "mBank bonus 1 000 Kč za 10 plateb mobilem: Podmínky a postup",
+      "blogPerex": "Při založení účtu mKonto s promo kódem získáte 100 Kč za každou platbu mobilem či hodinkami v prvních 60 dnech (až 1 000 Kč).",
+      "blogContent": "<p>U <strong>mBank</strong> získáte uvítací bonus při založení bezplatného účtu <strong>mKonto</strong> přes akční odkaz se zadáním promo kódu do pole <em>Přicházím na základě akce</em>. Za každou platbu provedenou mobilem, chytrými hodinkami nebo platebním prstenem během prvních 60 dnů od otevření účtu vám banka připíše <strong>100 Kč</strong> (maximálně za 10 plateb, tedy <strong>1 000 Kč</strong>). Banka nevyžaduje žádný minimální měsíční příjem.</p>"
+    },
+    {
+      "id": "csas",
+      "slugBank": "csas.html",
+      "slugBlog": "banka-csas.html",
+      "name": "Česká spořitelna",
+      "accountName": "Plus účet",
+      "active": true,
+      "bonusAmount": 1200,
+      "bonusText": "1 200 Kč",
+      "referralBonus": "Až 1 200 Kč pro nového klienta i doporučitele (max. 5 přátel = 6 000 Kč)",
+      "specialBonus": "Až 500 Kč (5× 100 Kč) pro děti od 8 do 17 let",
+      "validUntil": "31. 12. 2026",
+      "imageWebp": "",
+      "imagePng": "",
+      "brandColor": "#0052cc",
+      "brandTextColor": "#ffffff",
+      "affiliateUrl": "https://www.csas.cz/cs/osobni-finance/stante-se-klientem",
+      "termsUrl": "https://www.csas.cz/static_grg/cs/MGM/Prilohy/pravidla_marketingove_akce_doporucte_george.pdf",
+      "referralTermsUrl": "https://www.csas.cz/cs/page/deti",
+      "shortDescription": "Založte si účet v aplikaci George přes zvací odkaz, zaplaťte alespoň 4krát měsíčně kartou po dobu 3 měsíců a získáte 1 200 Kč (3× 400 Kč).",
+      "requirements": [
+        "Založení účtu přes tlačítko Získat bonus níže (aktivace zvací nabídky)",
+        "Nový klient (18+ let) bez běžného účtu u ČS v posledních 12 měsících",
+        "4 platby kartou měsíčně po dobu 3 měsíců (odměna 3× 400 Kč)"
+      ],
+      "steps": [
+        "Klikněte na tlačítko Získat bonus a otevřete si žádost o účet v aplikaci George.",
+        "Dokončete online založení účtu během několika minut přes BankID nebo nahráním dokladů.",
+        "V každém z prvních 3 kalendářních měsíců po založení proveďte alespoň 4 platby kartou – za každý splněný měsíc vám banka připíše 400 Kč (celkem 1 200 Kč)."
+      ],
+      "blogTitle": "Česká spořitelna bonus 1 200 Kč (3× 400 Kč) za založení účtu v Georgi",
+      "blogPerex": "Česká spořitelna vyplácí novým klientům 1 200 Kč (3× 400 Kč) za 4 platby kartou měsíčně po dobu 3 měsíců. Samostatný bonus 500 Kč nabízí pro děti.",
+      "blogContent": "<p><strong>Česká spořitelna</strong> vyplácí odměnu novým dospělým klientům prostřednictvím programu <strong>Doporučte George</strong>. Pokud si otevřete účet Plus nebo Standard přes akční odkaz na této stránce a v prvních 3 měsících provedete alespoň <strong>4 platby kartou měsíčně</strong>, získáte <strong>3× 400 Kč (celkem 1 200 Kč)</strong>. Při 4 platbách kartou měsíčně je navíc vedení Plus účtu zcela zdarma.</p><h3>Dětský účet s bonusem 500 Kč</h3><p>Pro děti od 8 do 17 let nabízí Česká spořitelna odměnu <strong>5× 100 Kč (celkem 500 Kč)</strong> za provedení alespoň 3 plateb kartou měsíčně po dobu 5 měsíců.</p>"
+    },
+    {
+      "id": "partners",
+      "slugBank": "partners.html",
+      "slugBlog": "banka-partners.html",
+      "name": "Partners Banka",
+      "accountName": "Účet Pro sebe  ",
+      "active": true,
+      "bonusAmount": 500,
+      "bonusText": "500 Kč",
+      "referralBonus": "Program Doporuč a získej přímo v mobilní aplikaci",
+      "specialBonus": "Volitelná akce BTC500 (500 Kč do Bitcoinu)",
+      "validUntil": "30. 11. 2026",
+      "imageWebp": "",
+      "imagePng": "",
+      "brandColor": "#00a3ad",
+      "brandTextColor": "#ffffff",
+      "affiliateUrl": "https://www.partnersbanka.cz/chci500",
+      "termsUrl": "https://www.partnersbanka.cz/chci500",
+      "referralTermsUrl": "https://www.partnersbanka.cz/dokumenty-ke-stazeni",
+      "shortDescription": "Založte si běžný účet v aplikaci Partners Banky se zadáním promo kódu CHCI500 a získejte jednorázový bonus 500 Kč bez nutnosti plateb kartou či obratu.",
+      "requirements": [
+        "Přechod na stránku akce přes tlačítko Získat bonus níže",
+        "Nový klient (18+ let) bez účtu u Partners Banky k 31. 8. 2026",
+        "Založení účtu v aplikaci s kódem CHCI500 (0 plateb kartou, 0 Kč příjem)"
+      ],
+      "steps": [
+        "Přejděte přes tlačítko Získat bonus na stránku akce a stáhněte si aplikaci Partners Banka.",
+        "Při zakládání bezplatného účtu Pro sebe zadejte promo kód CHCI500.",
+        "Po dokončení registrace vám banka do 30 dnů připíše odměnu 500 Kč na účet."
+      ],
+      "blogTitle": "Partners Banka bonus 500 Kč s promo kódem CHCI500: Podmínky akce",
+      "blogPerex": "Partners Banka vyplácí novým klientům odměnu 500 Kč za otevření účtu v aplikaci bez požadavků na minimální obrat nebo počet plateb.",
+      "blogContent": "<p><strong>Partners Banka</strong> nabízí jednorázový bonus bez nutnosti plnit měsíční obraty nebo počet plateb kartou. Stačí si do 30. 11. 2026 přes akční odkaz stáhnout aplikaci Partners Banka, založit bezplatný účet <em>Pro sebe</em> a v žádosti zadat promo kód <strong><code>CHCI500</code></strong>. Banka vám do 30 dnů od aktivace účtu připíše <strong>500 Kč</strong>.</p>"
+    },
+    {
+      "id": "kb",
+      "slugBank": "kb.html",
+      "slugBlog": "banka-kb.html",
+      "name": "Komerční banka",
+      "accountName": "Tarif Start v KB+  ",
+      "active": true,
+      "bonusAmount": 4000,
+      "bonusText": "Až 4 000 Kč",
+      "referralBonus": "Aktuálně bez MGM bonusu k běžnému účtu",
+      "specialBonus": "500 Kč pro děti + platební náramek Visa zdarma",
+      "validUntil": "30. 11. 2026",
+      "imageWebp": "/images/kb.webp",
+      "imagePng": "/images/kb.png",
+      "brandColor": "#e2001a",
+      "brandTextColor": "#ffffff",
+      "affiliateUrl": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
+      "termsUrl": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
+      "referralTermsUrl": "https://www.kb.cz/cs/obcane/bonus-pro-deti-500",
+      "shortDescription": "Získejte 1 500 Kč za 5 plateb kartou měsíčně, 1 500 Kč za příchozí obrat 15 000 Kč měsíčně po dobu 3 měsíců a dalších 1 000 Kč za převod účtu z jiné banky.",
+      "requirements": [
+        "Sjednání účtu v KB+ přes tlačítko Získat bonus níže (nový klient od 8/2026)",
+        "5 plateb kartou a příchozí obrat 15 000 Kč/měs. po dobu 3 měsíců (3 000 Kč)",
+        "Převod účtu z jiné banky v aplikaci KB+ (extra bonus 1 000 Kč)"
+      ],
+      "steps": [
+        "Klikněte na tlačítko Získat bonus, stáhněte si aplikaci KB+ nebo vyplňte žádost online a zvolte bezplatný tarif Start.",
+        "V každém z prvních 3 kalendářních měsíců zaplaťte alespoň 5krát kartou (získáte 3× 500 Kč = 1 500 Kč).",
+        "Ve stejných 3 měsících si na účet pošlete alespoň 15 000 Kč měsíčně z jiné banky (získáte dalších 3× 500 Kč = 1 500 Kč).",
+        "Pro získání čtvrté tisícovky (1 000 Kč) požádejte v aplikaci KB+ o automatický převod účtu z jiné banky se zrušením původního účtu."
+      ],
+      "blogTitle": "Komerční banka nabízí až 4 000 Kč novým klientům: Kompletní průvodce",
+      "blogPerex": "Aplikace KB+ přináší kombinovaný bonus až 4 000 Kč. Podívejte se na přesné počty plateb a výši obratu pro jednotlivé části odměny.",
+      "blogContent": "<p>Komerční banka pro nové klienty (bez běžného účtu u KB od 1. 8. 2026) v aplikaci <strong>KB+</strong> připravila kombinovaný bonus, jehož tři části banka vyhodnocuje zcela samostatně:</p><ul><li><strong>1 500 Kč za platby kartou (3× 500 Kč):</strong> Stačí v každém z prvních 3 celých kalendářních měsíců provést alespoň 5 plateb kartou.</li><li><strong>1 500 Kč za příchozí obrat (3× 500 Kč):</strong> Pokud vám v daném měsíci přijde na účet souhrnně alespoň 15 000 Kč z jiné banky, dostanete dalších 500 Kč měsíčně po dobu 3 měsíců.</li><li><strong>1 000 Kč za změnu banky:</strong> Požádáte-li o mobilitu se zrušením starého účtu u jiné banky, KB vám připíše jednorázově 1 000 Kč.</li></ul>"
+    },
+    {
+      "id": "unicredit",
+      "slugBank": "unicredit.html",
+      "slugBlog": "banka-unicredit.html",
+      "name": "UniCredit Bank",
+      "accountName": "Účet START  ",
+      "active": true,
+      "bonusAmount": 4000,
+      "bonusText": "Až 4 000 Kč",
+      "referralBonus": "Aktuálně bez MGM bonusu",
+      "specialBonus": "Až 2 200 Kč pro studenty (15–26 let) / 500 Kč pro děti",
+      "validUntil": "31. 12. 2026",
+      "imageWebp": "/images/unicredit.webp",
+      "imagePng": "/images/unicredit.png",
+      "brandColor": "#e2001a",
+      "brandTextColor": "#ffffff",
+      "affiliateUrl": "https://www.unicreditbank.cz/cs/obcane/ucty/ucty.html",
+      "termsUrl": "https://www.unicreditbank.cz/content/dam/cee2020-pws-cz/cz-dokumenty/kampane/Podminky-marketingove-kampane-ucty-start-open-top-s-odmenou-4000-01102026.pdf",
+      "referralTermsUrl": "https://www.unicreditbank.cz/cs/obcane/ucty/ucty.html",
+      "shortDescription": "Získejte 400 Kč každý měsíc po dobu 10 měsíců za provedení alespoň 10 plateb kartou měsíčně bez podmínky minimálního příjmu.",
+      "requirements": [
+        "Online založení účtu START přes tlačítko Získat bonus níže",
+        "Nový klient (18+ let) bez účtu u UniCredit Bank od 1. 1. 2025",
+        "10 plateb kartou měsíčně po dobu 10 měsíců (10× 400 Kč, 0 Kč příjem)"
+      ],
+      "steps": [
+        "Přejděte přes tlačítko Získat bonus na stránku banky a založte si účet START online (vedení je zdarma bez obratových podmínek).",
+        "Aktivujte si debetní kartu v mobilní aplikaci Smart Banking.",
+        "Každý kalendářní měsíc po dobu 10 měsíců proveďte alespoň 10 plateb kartou u obchodníků – za každý splněný měsíc obdržíte 400 Kč (celkem až 4 000 Kč)."
+      ],
+      "blogTitle": "UniCredit Bank: Jak získat až 4 000 Kč (10× 400 Kč) za placení kartou",
+      "blogPerex": "UniCredit Bank vyplácí novým klientům 400 Kč měsíčně po dobu 10 měsíců za 10 plateb kartou měsíčně bez nutnosti zasílat výplatu.",
+      "blogContent": "<p>Hlavní výhodou kampaně od <strong>UniCredit Bank</strong> u účtu START je absence obratových podmínek. Samotný účet START je veden zdarma a pro získání bonusu <strong>4 000 Kč (10× 400 Kč)</strong> stačí v každém z prvních 10 kalendářních měsíců provést alespoň <strong>10 plateb debetní kartou</strong>.</p>"
+    },
+    {
+      "id": "csob",
+      "slugBank": "csob.html",
+      "slugBlog": "banka-csob.html",
+      "name": "ČSOB",
+      "accountName": "Plus Konto  ",
+      "active": true,
+      "bonusAmount": 3000,
+      "bonusText": "Až 3 000 Kč",
+      "referralBonus": "Aktuálně bez MGM bonusu",
+      "specialBonus": "Až 1 500 Kč pro seniory (65+ let)",
+      "validUntil": "31. 12. 2026",
+      "imageWebp": "/images/csob.webp",
+      "imagePng": "/images/csob.png",
+      "brandColor": "#0099cc",
+      "brandTextColor": "#ffffff",
+      "affiliateUrl": "https://www.csob.cz/ucet3000",
+      "termsUrl": "https://www.csob.cz/ucet3000",
+      "referralTermsUrl": "https://www.csob.cz/aktivaceseniori2026",
+      "shortDescription": "První 3 měsíce dostáváte 500 Kč měsíčně za obrat 15 000 Kč a 5 plateb kartou, další 3 měsíce získáte 10 % zpět z plateb kartou až do výše 500 Kč měsíčně.",
+      "requirements": [
+        "Založení Plus Konta online přes tlačítko Získat bonus níže",
+        "Nový klient (18–64 let) bez běžného účtu u ČSOB v posledních 12 měsících",
+        "5 plateb kartou a příchozí obrat 15 000 Kč/měs. po dobu 6 měsíců (6× 500 Kč)"
+      ],
+      "steps": [
+        "Přejděte přes tlačítko Získat bonus na akční stránku ČSOB a založte si Plus Konto online přes BankID.",
+        "V prvních 3 kalendářních měsících splňte příchozí obrat min. 15 000 Kč/měs. a min. 5 plateb kartou měsíčně – získáte 3× 500 Kč (1 500 Kč).",
+        "Ve 4. až 6. měsíci pokračujte v plnění obratu 15 000 Kč a 5 plateb kartou – z každé platby kartou dostanete 10 % zpět až do výše 500 Kč měsíčně (dalších až 1 500 Kč)."
+      ],
+      "blogTitle": "ČSOB Plus Konto s bonusem až 3 000 Kč: Přesné podmínky a postup",
+      "blogPerex": "ČSOB kombinuje fixní odměnu 3× 500 Kč v prvních třech měsících s 10% cashbackem z plateb kartou (až 3× 500 Kč) v dalších třech měsících.",
+      "blogContent": "<p>Bezplatný účet <strong>Plus Konto od ČSOB</strong> přináší novým klientům (kteří neměli u ČSOB účet v posledních 12 měsících) odměnu rozdělenou do dvou tříměsíčních fází: v prvních 3 měsících získáte <strong>3× 500 Kč</strong> za příchozí platby min. 15 000 Kč měsíčně a 5 plateb kartou měsíčně. Ve 4. až 6. měsíci pak při splnění stejných podmínek získáváte <strong>10 % zpět z plateb kartou</strong> až do výše <strong>3× 500 Kč</strong>.</p>"
+    },
+    {
+      "id": "moneta",
+      "slugBank": "moneta.html",
+      "slugBlog": "banka-moneta.html",
+      "name": "MONETA Money Bank",
+      "accountName": "Účet Tom Plus  ",
+      "active": true,
+      "bonusAmount": 3000,
+      "bonusText": "Až 3 000 Kč",
+      "referralBonus": "Aktuálně bez MGM bonusu",
+      "specialBonus": "Dostupné již od 15 let věku",
+      "validUntil": "Do odvolání",
+      "imageWebp": "",
+      "imagePng": "",
+      "brandColor": "#002d72",
+      "brandTextColor": "#ffffff",
+      "affiliateUrl": "https://www.moneta.cz/ucty-a-karty/bezny-ucet",
+      "termsUrl": "https://www.moneta.cz/ucty-a-karty/bezny-ucet",
+      "referralTermsUrl": "https://www.moneta.cz/servis-pro-media/tiskove-zpravy/detail/moneta-vrati-novym-klientum-5-z-plateb-kartou-ziskat-mohou-az-3-000-korun",
+      "shortDescription": "MONETA vrací novým klientům u účtu Tom Plus 5 % z každé platby kartou až do výše 500 Kč měsíčně po dobu prvních 6 měsíců.",
+      "requirements": [
+        "Otevření účtu Tom Plus online přes tlačítko Získat bonus níže",
+        "Nový klient (15+ let) bez běžného účtu u MONETY v posledních 6 měsících",
+        "5 % zpět z plateb kartou po dobu 6 měsíců (max. 6× 500 Kč, 0 Kč příjem)"
+      ],
+      "steps": [
+        "Klikněte na tlačítko Získat bonus a otevřete si bezplatný účet Tom Plus online v aplikaci Smart Banka nebo na webu.",
+        "Plaťte za běžné nákupy novou debetní kartou.",
+        "Po dobu 6 kalendářních měsíců získáváte 5 % zpět z plateb kartou až do výše 500 Kč měsíčně (při útratě 10 000 Kč kartou měsíčně získáte maximálních 6× 500 Kč = 3 000 Kč)."
+      ],
+      "blogTitle": "MONETA Money Bank vrací až 3 000 Kč (6× 500 Kč) z nákupů k účtu Tom Plus",
+      "blogPerex": "Založte si bezplatný účet Tom Plus od MONETA Money Bank a získejte 5 % zpět z plateb kartou (až 500 Kč měsíčně) po dobu 6 měsíců.",
+      "blogContent": "<p>Pokud jste u MONETY v posledních 6 měsících neměli běžný účet a je vám alespoň 15 let, získáte k účtu <strong>Tom Plus</strong> odměnu až <strong>3 000 Kč</strong> formou 5% cashbacku z plateb debetní kartou (maximálně <strong>500 Kč měsíčně po dobu 6 měsíců</strong>). Banka nevyžaduje žádný minimální příchozí obrat.</p>"
+    },
+    {
+      "id": "airbankO2",
+      "slugBank": "airbankO2.html",
+      "slugBlog": "banka-airbankO2.html",
+      "name": "Air Bank + O2",
+      "accountName": "Program Unity",
+      "active": true,
+      "bonusAmount": 3600,
+      "bonusText": "3 600 Kč / rok",
+      "referralBonus": "Lze plně kombinovat s bonusem 500 Kč za doporučení Air Bank",
+      "specialBonus": "Trvalá měsíční odměna po celou dobu využívání služeb",
+      "validUntil": "Dlouhodobý program",
+      "imageWebp": "/images/airbank.webp",
+      "imagePng": "/images/airbank.png",
+      "brandColor": "#111111",
+      "brandTextColor": "#95c11f",
+      "affiliateUrl": "https://www.airbank.cz/produkty/odmena-za-placeni-sluzeb-od-o2/",
+      "termsUrl": "https://www.airbank.cz/produkty/odmena-za-placeni-sluzeb-od-o2/",
+      "referralTermsUrl": "https://www.airbank.cz/co-vas-nejvic-zajima/jak-se-stat-klientem-air-bank-na-doporuceni-pritele/",
+      "shortDescription": "Propojte svůj účet u Air Bank se službami od O2. Při platbě vyúčtování O2 ve výši alespoň 600 Kč měsíčně z Air Bank dostanete každý měsíc 300 Kč zpět.",
+      "requirements": [
+        "Založení účtu Air Bank přes tlačítko níže a aktivace programu Unity",
+        "Vedení účtu Air Bank a služeb O2 na stejné rodné číslo",
+        "Úhrada faktury O2 min. 600 Kč/měs. z Air Bank (odměna 300 Kč každý měsíc)"
+      ],
+      "steps": [
+        "Založte si účet u Air Bank přes tlačítko na této stránce (pro získání prvních 500 Kč za 5 plateb kartou).",
+        "V aplikaci My Air přejděte do sekce Odměny a aktivujte propojení s O2 (program Unity).",
+        "Hraďte vyúčtování O2 (min. 600 Kč měsíčně vč. DPH) ze svého účtu u Air Bank a každý kalendářní měsíc dostanete 300 Kč zpět."
+      ],
+      "blogTitle": "Air Bank a O2 Unity: Jak dostávat 300 Kč každý měsíc (3 600 Kč ročně)",
+      "blogPerex": "Propojením účtu Air Bank a služeb O2 získáte každý měsíc 300 Kč zpět na účet při úhradě vyúčtování O2 alespoň 600 Kč měsíčně.",
+      "blogContent": "<p>Zatímco většina bankovních bonusů končí po třech až dvanácti měsících, společný program <strong>Unity od Air Bank a O2</strong> vyplácí peníze dlouhodobě. Každý měsíc, kdy zaplatíte fakturu O2 v minimální výši <strong>600 Kč</strong> z účtu u Air Bank, vám banka připíše <strong>300 Kč</strong> – za rok tak získáte <strong>3 600 Kč</strong>.</p><h3>Podmínky pro vyplácení 300 Kč měsíčně</h3><ul><li>Jste klientem Air Bank i O2 (smlouvy jsou vedeny na stejné rodné číslo).</li><li>Vaše měsíční vyúčtování za služby O2 (mobilní tarif, pevný internet nebo O2 TV) činí alespoň <strong>600 Kč vč. DPH</strong>.</li><li>Toto vyúčtování zaplatíte bezhotovostně ze svého běžného účtu u Air Bank.</li></ul>"
+    }
+  ],
+  "guides": [
+    {
+      "slug": "jak-ziskat-bonus.html",
+      "category": "Strategie a návody",
+      "readingTime": "6 min čtení",
+      "title": "Jak získat bankovní bonusy na maximum (až 26 200 Kč) – Kompletní strategie",
+      "metaDescription": "Podrobný návod, jak v roce 2026 zkombinovat založení účtů u českých bank, snadno splnit podmínky obratu i plateb kartou a získat až 26 200 Kč.",
+      "perex": "České banky bojují o nové klienty vysokými odměnami. Podívejte se na osvědčený postup, jak legálně zkombinovat více účtů současně bez poplatků.",
+      "keyTakeaways": [
+        "Začněte u bank s nízkým počtem požadovaných plateb kartou: Air Bank (500 Kč za 5 plateb), Raiffeisenbank (až 6 000 Kč za 10 plateb měsíčně) a Česká spořitelna (1 200 Kč za 4 platby měsíčně).",
+        "Všechny uváděné běžné účty mají založení i vedení za 0 Kč měsíčně.",
+        "Podmínku měsíčního příjmu (15 000 Kč u KB a ČSOB) splníte i přeposláním peněz z vlastního účtu u jiné banky."
+      ],
+      "content": "<h2>Proč banky vyplácejí tisíce korun za založení účtu</h2><p>Získat nového klienta stojí banku v marketingových kampaních tisíce korun. Místo utrácení za reklamu proto české banky vyplácejí <strong>odměnu za založení účtu přímo novému klientovi</strong>. Díky BankID si navíc účet otevřete z mobilu za 5 minut.</p><h2>Doporučené pořadí: Kde začít</h2><ol><li><strong><a href='/banky/airbank.html'>Air Bank (500 Kč)</a>:</strong> Stačí se registrovat přes zvací odkaz a 5krát zaplatit kartou do konce následujícího měsíce.</li><li><strong><a href='/banky/raiffeisen.html'>Raiffeisenbank (až 6 000 Kč nebo 3 000 Kč)</a>:</strong> Nejvyšší bonus na trhu za 10 plateb kartou měsíčně po dobu 6 až 12 měsíců bez nutnosti posílat výplatu.</li><li><strong><a href='/banky/csas.html'>Česká spořitelna (1 200 Kč)</a>:</strong> Založení v aplikaci George přes zvací odkaz a 4 platby kartou měsíčně po dobu 3 měsíců (3× 400 Kč).</li><li><strong><a href='/banky/mbank.html'>mBank (1 000 Kč)</a>:</strong> Za každou z prvních 10 plateb mobilem či hodinkami do 60 dnů dostanete 100 Kč.</li></ol>"
+    },
+    {
+      "slug": "bankovni-bonusy-za-doporuceni-mgm.html",
+      "category": "Doporučující programy",
+      "readingTime": "5 min čtení",
+      "title": "Bonusy za doporučení účtu: Jak získat až 35 000 Kč pozváním přátel",
+      "metaDescription": "Srovnání programů doporučení (Member-Get-Member) u českých bank. Zjistěte, kolik zaplatí Air Bank, Raiffeisenbank, Česká spořitelna a mBank za přivedení známého.",
+      "perex": "Založením vlastního účtu odměny nekončí. Jakmile máte účet otevřený, můžete sdílet svůj zvací odkaz v rodině a získat další tisíce korun.",
+      "keyTakeaways": [
+        "Raiffeisenbank vyplácí 1 000 Kč za doporučení osobního účtu a 2 000 Kč za podnikatelský účet (po 3 platbách kartou nového klienta).",
+        "Česká spořitelna (Doporučte George) dává 1 200 Kč (3× 400 Kč) oběma stranám při 4 platbách kartou měsíčně.",
+        "mBank umožňuje získat až 26 000 Kč při doporučení 20 přátel."
+      ],
+      "content": "<h2>Jak fungují programy Member-Get-Member (MGM)</h2><p>Programy doporučení přinášejí odměnu jak novému klientovi, tak tomu, kdo mu zvací odkaz poslal. U některých bank (např. Air Bank, mBank nebo Česká spořitelna) nový klient bez zvacího odkazu nebo promo kódu žádný bonus nezíská.</p><h2>Přehled bankovních programů doporučení v ČR</h2><ul><li><strong><a href='/banky/airbank.html'>Air Bank</a>:</strong> Přes zvací odkaz získá nový klient 500 Kč za 5 plateb kartou. Pozvat můžete až 10 přátel.</li><li><strong><a href='/banky/raiffeisen.html'>Raiffeisenbank (Doporučte nás)</a>:</strong> Za každého nového klienta s osobním účtem, který provede 3 platby kartou, dostanete 1 000 Kč, za podnikatele (OSVČ) 2 000 Kč. Nový klient zároveň dostane svůj uvítací bonus až 6 000 Kč.</li><li><strong><a href='/banky/csas.html'>Česká spořitelna (Doporučte George)</a>:</strong> 1 200 Kč (3× 400 Kč) pro vás a 1 200 Kč pro vašeho známého za 4 platby kartou měsíčně po dobu 3 měsíců.</li><li><strong><a href='/banky/mbank.html'>mBank (Doporučte mBank)</a>:</strong> Až 1 000 Kč (10× 100 Kč za platby mobilem do 60 dnů) za každého přítele + prémie 1 000 Kč za každého třetího doporučeného.</li></ul>"
+    },
+    {
+      "slug": "detske-a-studentske-ucty-s-bonusem.html",
+      "category": "Pro děti a studenty",
+      "readingTime": "5 min čtení",
+      "title": "Dětské a studentské účty s bonusem: Srovnání podmínek a odměn",
+      "metaDescription": "Velké srovnání dětských a studentských účtů s finančním bonusem. Raiffeisenbank (900 Kč), Česká spořitelna (500 Kč), mBank (500 Kč), KB (500 Kč) a UniCredit (2 200 Kč).",
+      "perex": "Založení účtu pro dítě nebo studenta přináší dvojí výhodu: děti se naučí hospodařit s penězi v mobilní aplikaci a banky jim na start připíší stovky až tisíce korun.",
+      "keyTakeaways": [
+        "Raiffeisenbank dává dětem a studentům (8–17 let) 900 Kč (3× 300 Kč) za 3 platby kartou měsíčně po dobu 3 měsíců.",
+        "Česká spořitelna vyplácí dětem 500 Kč (5× 100 Kč za 3 platby kartou měsíčně) a mBank 500 Kč za vklad min. 100 Kč.",
+        "Studenti od 15 let dosáhnou na bonus až 3 000 Kč u MONETY nebo až 2 200 Kč u UniCredit Bank."
+      ],
+      "content": "<h2>Dětské účty do 15 let</h2><p>Rodiče mohou dnes dětský účet založit plně online ze svého mobilního bankovnictví:</p><ul><li><strong><a href='/banky/raiffeisen.html'>Raiffeisenbank – 900 Kč</a>:</strong> Pro děti od 8 do 17 let za 3 platby kartou měsíčně po dobu 3 měsíců (3× 300 Kč).</li><li><strong><a href='/banky/csas.html'>Česká spořitelna – 500 Kč</a>:</strong> Děti od 8 do 17 let získají 5× 100 Kč za alespoň 3 platby kartou měsíčně po dobu 5 měsíců.</li><li><strong><a href='/banky/mbank.html'>mBank – 500 Kč pro dítě</a>:</strong> Při založení mKonta pro děti s promo kódem rodiče a zaslání min. 100 Kč na účet do konce následujícího měsíce.</li><li><strong><a href='/banky/kb.html'>Komerční banka – 500 Kč</a>:</strong> Při vkladu alespoň 500 Kč na nový dětský účet do 2 měsíců od založení přidá KB dalších 500 Kč.</li></ul>"
+    },
+    {
+      "slug": "podnikatelske-ucty-s-bonusem-osvc.html",
+      "category": "Pro OSVČ a firmy",
+      "readingTime": "4 min čtení",
+      "title": "Podnikatelský účet zdarma a s bonusem až 5 000 Kč (Srovnání pro OSVČ)",
+      "metaDescription": "Hledáte bezplatný podnikatelský účet pro OSVČ nebo s.r.o. s uvítacím bonusem? Porovnali jsme akce Raiffeisenbank, mBank Business a Komerční banky.",
+      "perex": "Oddělení firemních a osobních financí zpřehlední daňovou evidenci a u vybraných bank přinese i uvítací bonus.",
+      "keyTakeaways": [
+        "Raiffeisenbank nabízí bezplatný Chytrý účet pro podnikatele a vyplácí doporučiteli 2 000 Kč po 3 platbách kartou nového OSVČ klienta.",
+        "mBank nabízí k bezplatnému účtu mKonto Business bonus až 2 000 Kč (2× 1 000 Kč za příchozí platbu a 5 plateb kartou měsíčně)."
+      ],
+      "content": "<h2>Které banky dávají bonus k podnikatelskému účtu</h2><ul><li><strong><a href='/banky/raiffeisen.html'>Raiffeisenbank (Chytrý účet pro podnikatele)</a>:</strong> Vedení účtu je zdarma bez podmínek. Při založení přes program doporučení a provedení 3 plateb kartou získá doporučující <strong>2 000 Kč</strong>.</li><li><strong><a href='/banky/mbank.html'>mBank (mKonto Business)</a>:</strong> S promo kódem <code>BONUS</code> získáte až 2 000 Kč (1 000 Kč měsíčně po dobu 2 měsíců za příchozí platbu a platby kartou).</li></ul>"
+    },
+    {
+      "slug": "jak-splnit-podminky-obratu-a-plateb-kartou.html",
+      "category": "Praktické tipy",
+      "readingTime": "4 min čtení",
+      "title": "Jak splnit podmínku 15 000 Kč obratu a plateb kartou bez změny výplaty",
+      "metaDescription": "Praktické tipy, jak splnit podmínku příchozího obratu 15 000 Kč u KB a ČSOB bez změny výplaty v práci a které transakce kartou banky neuznávají.",
+      "perex": "Kvůli bankovnímu bonusu nemusíte v zaměstnání hlásit nové číslo účtu. Ukážeme vám, jak podmínky bank splnit pomocí trvalého příkazu.",
+      "keyTakeaways": [
+        "Žádná z českých bank nevyžaduje, aby příchozích 15 000 Kč posílal zaměstnavatel – stačí převod z vašeho druhého účtu v jiné bance.",
+        "Pro splnění počtu plateb kartou (4 až 10 plateb měsíčně) neplatí dobíjení Revolutu, sázkových kanceláří ani výběry z bankomatu.",
+        "Platby přes Apple Pay a Google Pay u běžných obchodníků se započítávají vždy."
+      ],
+      "content": "<h2>Příchozí obrat 15 000 Kč bez přesunu výplaty</h2><p>V podmínkách akcí u <a href='/banky/kb.html'>Komerční banky</a> i <a href='/banky/csob.html'>ČSOB</a> je vyžadován příchozí obrat alespoň 15 000 Kč měsíčně. Bankovní systém nerozlišuje, zda peníze přišly od zaměstnavatele, nebo z vašeho stávajícího účtu u jiné banky. Jedinou podmínkou je, že nesmí jít o převod mezi dvěma účty u téže banky.</p>"
+    },
+    {
+      "slug": "daneni-bankovnich-bonusu.html",
+      "category": "Daně a legislativa",
+      "readingTime": "4 min čtení",
+      "title": "Jak je to se zdaněním bankovních bonusů a odměn za doporučení",
+      "metaDescription": "Musí se danit bankovní bonusy za založení účtu, cashback a odměny za doporučení (MGM) v České republice? Přehled legislativy a limitů osvobození.",
+      "perex": "Získali jste během roku několik tisíc korun za založení účtů a doporučení přátel? Podívejte se, jak tyto odměny upravuje zákon o daních z příjmů.",
+      "keyTakeaways": [
+        "Běžné slevy a cashbacky z nákupů (např. 5% cashback u MONETY nebo 10% cashback za potraviny u Raiffeisenbank) představují slevu z ceny a nepodléhají dani.",
+        "Příležitostné ostatní příjmy dle § 10 zákona o daních z příjmů jsou osvobozeny od daně do souhrnného limitu 50 000 Kč za kalendářní rok."
+      ],
+      "content": "<h2>Cashback a věrnostní odměny</h2><p>Pokud vám banka vrací část peněz z plateb kartou (např. u <a href='/banky/raiffeisen.html'>Raiffeisenbank</a> nebo <a href='/banky/moneta.html'>MONETY</a>), jde o dodatečnou slevu za využívání platebních služeb, která nepodléhá dani z příjmů. U odměn za doporučení platí pro nepodnikající fyzické osoby roční limit osvobození 50 000 Kč dle § 10 zákona o daních z příjmů.</p>"
+    },
+    {
+      "slug": "zmena-banky-online-mobilita.html",
+      "category": "Návody",
+      "readingTime": "4 min čtení",
+      "title": "Změna banky online (mobilita účtu): Jak převést trvalé příkazy a získat 1 000 Kč",
+      "metaDescription": "Jak funguje zákonná služba změny banky (mobilita účtu) v ČR? Nechte novou banku převést vaše trvalé příkazy a inkasa a získejte za to bonus 1 000 Kč.",
+      "perex": "Nechcete ručně přepisovat trvalé příkazy a inkasa v novém bankovnictví? Využijte bezplatnou službu Změna banky.",
+      "keyTakeaways": [
+        "Změna banky (mobilita) je ze zákona bezplatná služba dostupná v mobilní aplikaci nové banky.",
+        "Nová banka převede trvalé příkazy, inkasa a na přání starý účet zruší.",
+        "Komerční banka vyplácí za využití mobility se zrušením původního účtu extra bonus 1 000 Kč."
+      ],
+      "content": "<h2>Jak funguje mobilita účtu</h2><p>Podle zákona o platebním styku musí každá banka v ČR umožnit bezplatný převod platebního účtu. <a href='/banky/kb.html'>Komerční banka</a> za využití této služby spojené se zrušením starého účtu vyplácí <strong>1 000 Kč navíc</strong> (celkem až 4 000 Kč).</p>"
+    },
+    {
+      "slug": "zalozeni-uctu-pres-bankid.html",
+      "category": "Technologie",
+      "readingTime": "3 min čtení",
+      "title": "Založení účtu přes BankID: Otevření účtu s bonusem za 5 minut",
+      "metaDescription": "Jak funguje založení účtu online přes Bankovní identitu (BankID) u českých bank bez nutnosti návštěvy pobočky.",
+      "perex": "S Bankovní identitou (BankID) otevřete nový běžný účet s bonusem plně online během několika minut.",
+      "keyTakeaways": [
+        "BankID má automaticky a zdarma každý klient s internetovým bankovnictvím u českých bank.",
+        "Při zakládání nového účtu se přihlásíte přes svou stávající banku, která bezpečně potvrdí vaši totožnost."
+      ],
+      "content": "<h2>Postup ověření přes BankID</h2><p>Při vyplňování online žádosti o nový účet (například u <a href='/banky/airbank.html'>Air Bank</a> nebo <a href='/banky/raiffeisen.html'>Raiffeisenbank</a>) zvolíte možnost <strong>Ověřit přes Bankovní identitu</strong>. Potvrdíte přihlášení ve své stávající bance, smlouvu podepíšete SMS kódem a účet je ihned aktivní.</p>"
+    },
+    {
+      "slug": "bezny-ucet-bez-poplatku-srovnani.html",
+      "category": "Srovnání účtů",
+      "readingTime": "5 min čtení",
+      "title": "Běžné účty bez poplatků: Srovnání podmínek a výběrů z bankomatů",
+      "metaDescription": "Který běžný účet v ČR je skutečně zdarma bez podmínek? Srovnání poplatků za vedení a výběrů z bankomatů doma i v zahraničí.",
+      "perex": "Zkontrolovali jsme sazebníky českých bank, abyste po vyčerpání bonusu neplatili žádné měsíční poplatky za vedení účtu.",
+      "keyTakeaways": [
+        "Zcela bez podmínek jsou účty od Air Bank, Raiffeisenbank, mBank, MONETY, Partners Banky, KB (Start), ČSOB a UniCredit (START).",
+        "Nejvýhodnější výběry ze všech bankomatů v ČR i v zahraničí zdarma nabízí Chytrý účet od Raiffeisenbank, Tom Plus od MONETY a Partners Banka."
+      ],
+      "content": "<h2>Účty s vedením za 0 Kč bez podmínek</h2><p>U žádné z bank v našem hlavním přehledu vám po skončení bonusové akce nehrozí poplatek za vedení základního účtu. <a href='/banky/airbank.html'>Air Bank</a>, <a href='/banky/raiffeisen.html'>Raiffeisenbank (Chytrý účet)</a> i <a href='/banky/moneta.html'>MONETA (Tom Plus)</a> garantují nulový poplatek za vedení bez obratových podmínek.</p>"
+    },
+    {
+      "slug": "nejlepsi-sporici-ucty-srovnani.html",
+      "category": "Spoření a úroky",
+      "readingTime": "4 min čtení",
+      "title": "Kam uložit peníze z bonusů: Srovnání spořicích účtů bez výpovědní lhůty",
+      "metaDescription": "Přehled spořicích účtů k běžným účtům zdarma. Zjistěte, jak propojit plnění podmínek bonusu s bonusovou úrokovou sazbou.",
+      "perex": "Vyplacené bonusy za založení účtu můžete ihned přesunout na připojený spořicí účet se zajímavým úročením.",
+      "keyTakeaways": [
+        "Součástí každého moderního běžného účtu je bezplatný spořicí účet v mobilní aplikaci.",
+        "U Raiffeisenbank (10 plateb kartou měsíčně) a Air Bank (5 plateb kartou měsíčně) získáte bonusovou úrokovou sazbu při splnění stejných plateb kartou, které provádíte pro získání uvítacího bonusu."
+      ],
+      "content": "<h2>Synergie uvítacího bonusu a spořicího účtu</h2><p>Podmínky pro získání uvítacího bonusu (5 plateb kartou měsíčně u <a href='/banky/airbank.html'>Air Bank</a> nebo 10 plateb kartou měsíčně u <a href='/banky/raiffeisen.html'>Raiffeisenbank</a>) vám zároveň automaticky odemykají <strong>bonusovou úrokovou sazbu na spořicím účtu</strong>.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Jak získat nejvyšší bankovní bonusy v roce 2026?",
+      "answer": "Nejefektivnější je začít u bank s nízkými nároky na počet plateb kartou a bez podmínky příjmu: Air Bank (500 Kč za 5 plateb kartou), Raiffeisenbank (až 6 000 Kč nebo 3 000 Kč za 10 plateb kartou měsíčně) a Česká spořitelna (1 200 Kč za 4 platby kartou měsíčně po dobu 3 měsíců)."
+    },
+    {
+      "question": "Je založení a vedení účtu s bonusem skutečně zdarma?",
+      "answer": "Ano. Všechny běžné účty zařazené v našem přehledu (Air Bank Malý tarif, Raiffeisenbank Chytrý účet, Česká spořitelna, mBank mKonto, Partners Banka Pro sebe, KB Start, UniCredit START, ČSOB Plus Konto i MONETA Tom Plus) mají online založení i vedení účtu bez poplatků."
+    },
+    {
+      "question": "Mohu si založit účet u více bank současně?",
+      "answer": "Ano, v České republice můžete mít libovolný počet běžných účtů. Řada klientů si přes BankID založí 2 až 4 účty současně a postupně čerpá uvítací odměny."
+    },
+    {
+      "question": "Musím si na nový účet převádět výplatu od zaměstnavatele?",
+      "answer": "Nemusíte. Většina bank (Air Bank, Raiffeisenbank, Česká spořitelna, mBank, Partners Banka, UniCredit, MONETA) vyžaduje pouze platby kartou. U Komerční banky a ČSOB stačí pro splnění příchozího obratu 15 000 Kč měsíčně poslat peníze z vašeho stávajícího účtu u jiné banky."
+    }
+  ],
+  "expiredCampaigns": [
+    {
+      "bank": "mBank",
+      "name": "mBank – Letní akce s kartou VISA (kód VISA)",
+      "bonusText": "3 000 Kč",
+      "ended": "31. 8. 2025",
+      "note": "Pro prvních 1 500 klientů: 500 Kč měsíčně za 5 plateb kartou a 500 Kč za obrat 15 000 Kč po dobu 3 měsíců."
+    },
+    {
+      "bank": "ČSOB",
+      "name": "ČSOB – Zpátky do školy s Plus Kontem a poukazem",
+      "bonusText": "2 500 Kč + 600 Kč",
+      "ended": "30. 9. 2025",
+      "note": "Odměna až 2 500 Kč za aktivitu na účtu + 600 Kč voucher na školní pomůcky."
+    },
+    {
+      "bank": "Raiffeisenbank",
+      "name": "Raiffeisenbank – Letní akce 6× 500 Kč za 10 plateb kartou",
+      "bonusText": "3 000 Kč",
+      "ended": "30. 9. 2025",
+      "note": "Vyplácelo se 500 Kč měsíčně po dobu 6 měsíců za 10 plateb kartou (před přidáním 6 000 Kč cashback variant)."
+    },
+    {
+      "bank": "MONETA Money Bank",
+      "name": "MONETA Money Bank – 10 % zpět z plateb kartou (letní vlna)",
+      "bonusText": "3 000 Kč",
+      "ended": "31. 8. 2025",
+      "note": "Cashback 10 % z plateb debetní kartou k účtu Tom Plus (max. 500 Kč měsíčně po dobu 6 měsíců)."
+    },
+    {
+      "bank": "Komerční banka",
+      "name": "Komerční banka – Startovací bonus v aplikaci KB+",
+      "bonusText": "2 000 Kč",
+      "ended": "31. 7. 2025",
+      "note": "Odměna 4× 500 Kč za 5 plateb kartou měsíčně v nové aplikaci KB+, následně navýšeno na až 4 000 Kč."
+    },
+    {
+      "bank": "ČSOB",
+      "name": "ČSOB – Jarní Plus Konto s prémií 3× 500 Kč",
+      "bonusText": "1 500 Kč",
+      "ended": "30. 6. 2025",
+      "note": "Podmínkou bylo 5 plateb kartou a příchozí obrat 15 000 Kč měsíčně po dobu 3 měsíců."
+    },
+    {
+      "bank": "Česká spořitelna",
+      "name": "Česká spořitelna – Odměna 4× 500 Kč za založení účtu v Georgi",
+      "bonusText": "2 000 Kč",
+      "ended": "31. 3. 2025",
+      "note": "Podmínkou byly 4 platby kartou měsíčně po dobu 4 měsíců od založení účtu."
+    },
+    {
+      "bank": "mBank",
+      "name": "mBank – Zimní akce za platby mobilem nebo hodinkami",
+      "bonusText": "2 000 Kč",
+      "ended": "28. 2. 2025",
+      "note": "Odměna až 4× 500 Kč při zadání sezónního promo kódu a provedení 5 plateb mobilem měsíčně."
+    },
+    {
+      "bank": "Air Bank",
+      "name": "Air Bank – Vánoční kampaň na nový běžný účet",
+      "bonusText": "1 000 Kč",
+      "ended": "31. 12. 2024",
+      "note": "Jednorázová sezónní akce při založení účtu přes mobilní aplikaci a provedení 10 plateb kartou."
+    },
+    {
+      "bank": "ČSOB",
+      "name": "ČSOB – Podzimní prémie 4× 500 Kč za založení účtu online",
+      "bonusText": "2 000 Kč",
+      "ended": "31. 12. 2024",
+      "note": "Vyplácelo se 500 Kč měsíčně po dobu 4 měsíců za 5 plateb kartou a přihlášení do aplikace ČSOB Smart."
+    },
+    {
+      "bank": "Komerční banka",
+      "name": "Komerční banka – Podzimní bonus 2 500 Kč k tarifům KB+",
+      "bonusText": "2 500 Kč",
+      "ended": "30. 11. 2024",
+      "note": "Kombinace bonusu 1 500 Kč za platby kartou a 1 000 Kč za příchozí platby."
+    },
+    {
+      "bank": "UniCredit Bank",
+      "name": "UniCredit Bank – Účet START s odměnou 3× 500 Kč",
+      "bonusText": "1 500 Kč",
+      "ended": "30. 9. 2024",
+      "note": "Vyžadovalo 5 plateb kartou měsíčně po dobu 3 měsíců. Později nahrazeno akcí 10× 400 Kč (4 000 Kč)."
+    },
+    {
+      "bank": "MONETA Money Bank",
+      "name": "MONETA Money Bank – Rychlá odměna 1 500 Kč k účtu Tom Plus",
+      "bonusText": "1 500 Kč",
+      "ended": "30. 6. 2024",
+      "note": "Vypláceno jako 3× 500 Kč za provedení alespoň 5 plateb kartou měsíčně."
+    },
+    {
+      "bank": "Raiffeisenbank",
+      "name": "Raiffeisenbank – Jarní prémie 6× 500 Kč za 3 platby kartou",
+      "bonusText": "3 000 Kč",
+      "ended": "30. 6. 2024",
+      "note": "V této vlně stačily pro získání 500 Kč měsíčně pouze 3 platby kartou měsíčně (později zvýšeno na 10 plateb)."
+    },
+    {
+      "bank": "Česká spořitelna",
+      "name": "Česká spořitelna – Bonus 1 500 Kč při založení účtu přes BankID",
+      "bonusText": "1 500 Kč",
+      "ended": "31. 12. 2023",
+      "note": "Odměna 3× 500 Kč za 4 platby kartou měsíčně v prvních třech měsících."
+    },
+    {
+      "bank": "mBank",
+      "name": "mBank – Odměna 1 500 Kč + sleva na chytré hodinky Xiaomi/Garmin",
+      "bonusText": "1 500 Kč",
+      "ended": "30. 9. 2023",
+      "note": "Kombinace finančního bonusu za platby mobilem a slevového poukazu na nositelnou elektroniku."
+    },
+    {
+      "bank": "Komerční banka",
+      "name": "Komerční banka – MůjÚčet s uvítací prémií 2 000 Kč",
+      "bonusText": "2 000 Kč",
+      "ended": "31. 8. 2023",
+      "note": "Poslední velká bonusová akce ke starší generaci účtů MůjÚčet před spuštěním KB+."
+    },
+    {
+      "bank": "Hello bank!",
+      "name": "Hello bank! – Bonus 1 000 Kč za založení účtu (před odchodem z ČR)",
+      "bonusText": "1 000 Kč",
+      "ended": "31. 3. 2023",
+      "note": "Poslední kampaň před tím, než BNP Paribas Personal Finance ukončila retailové bankovnictví v ČR."
+    },
+    {
+      "bank": "MONETA Money Bank",
+      "name": "MONETA Money Bank – Bonus 2 000 Kč v aplikaci Smart Banka",
+      "bonusText": "2 000 Kč",
+      "ended": "31. 12. 2022",
+      "note": "Jednorázová odměna 2 000 Kč při založení účtu Tom Plus a 5 platbách kartou v prvním měsíci."
+    },
+    {
+      "bank": "ČSOB",
+      "name": "ČSOB – Odměna 1 500 Kč za založení Plus Konta online",
+      "bonusText": "1 500 Kč",
+      "ended": "30. 11. 2022",
+      "note": "Vypláceno ve třech splátkách 3× 500 Kč za aktivní využívání karty a mobilní aplikace."
+    },
+    {
+      "bank": "Raiffeisenbank",
+      "name": "Raiffeisenbank – Startovací prémie 3× 500 Kč k Chytrému účtu",
+      "bonusText": "1 500 Kč",
+      "ended": "31. 10. 2022",
+      "note": "Tříměsíční verze kampaně (3× 500 Kč za 3 platby kartou měsíčně) před navýšením na 3 000 Kč."
+    },
+    {
+      "bank": "Equa bank",
+      "name": "Equa bank – Běžný účet s odměnou 1 500 Kč (před fúzí s RB)",
+      "bonusText": "1 500 Kč",
+      "ended": "31. 12. 2021",
+      "note": "Odměna 3× 500 Kč za platby kartou; v roce 2022 proběhlo plné sloučení Equa bank s Raiffeisenbank."
+    },
+    {
+      "bank": "Sberbank CZ",
+      "name": "Sberbank – Fér účet s bonusem za přesun účtu a aktivitu",
+      "bonusText": "1 500 Kč",
+      "ended": "30. 11. 2021",
+      "note": "Historická kampaň před odebráním bankovní licence v roce 2022 a převodem portfolia pod Českou spořitelnu."
+    },
+    {
+      "bank": "ING Bank",
+      "name": "ING Konto – Bonus za založení a doporučení (před odchodem z ČR)",
+      "bonusText": "1 000 Kč",
+      "ended": "28. 2. 2021",
+      "note": "ING ukončila retailové bankovnictví v ČR v roce 2021 a klientům nabídla přechod s bonusem k Raiffeisenbank."
+    },
+    {
+      "bank": "UniCredit Bank",
+      "name": "UniCredit Bank – Odměna 1 000 Kč za doporučení a otevření U konta",
+      "bonusText": "1 000 Kč",
+      "ended": "31. 12. 2020",
+      "note": "Kampaň ke staršímu produktu U konto (500 Kč pro nového klienta + 500 Kč za doporučení)."
+    },
+    {
+      "bank": "mBank",
+      "name": "mBank – Bonus 1 500 Kč k účtu mKonto za platby telefonem",
+      "bonusText": "1 500 Kč",
+      "ended": "30. 9. 2020",
+      "note": "500 Kč za založení přes mobilní aplikaci a 2× 500 Kč za platby přes Apple Pay nebo Google Pay."
+    },
+    {
+      "bank": "MONETA Money Bank",
+      "name": "MONETA – Odměna 1 500 Kč v kampani se zrzavým kocourem",
+      "bonusText": "1 500 Kč",
+      "ended": "30. 6. 2020",
+      "note": "Jednorázový bonus za založení účtu Tom a provedení 5 plateb kartou."
+    },
+    {
+      "bank": "Komerční banka",
+      "name": "Komerční banka – Bonus 1 500 Kč za sjednání MůjÚčet",
+      "bonusText": "1 500 Kč",
+      "ended": "31. 12. 2019",
+      "note": "Podmínkou bylo zasílání příjmu a provedení alespoň 3 plateb kartou měsíčně."
+    },
+    {
+      "bank": "ČSOB",
+      "name": "ČSOB – Prémie 1 000 Kč k Plus Kontu za platby kartou",
+      "bonusText": "1 000 Kč",
+      "ended": "31. 10. 2019",
+      "note": "Vypláceno ve dvou částech (2× 500 Kč) za aktivní využívání platební karty."
+    },
+    {
+      "bank": "Air Bank",
+      "name": "Air Bank – Odměna 300 Kč za vyzkoušení účtu na doporučení",
+      "bonusText": "300 Kč",
+      "ended": "31. 12. 2019",
+      "note": "Původní verze programu doporučení před navýšením odměny na 500 Kč."
+    }
+  ]
+}

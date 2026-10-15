@@ -1,0 +1,42 @@
+{
+  "airbank": {
+    "url": "https://www.airbank.cz/pozvani-pratel?referrer=pw4qr2",
+    "promoCode": ""
+  },
+  "raiffeisen": {
+    "url": "https://onb.rb.cz/onb-web?mgm=ra0al7",
+    "promoCode": ""
+  },
+  "csas": {
+    "url": "https://www.csas.cz/cs/page/doporucte-george",
+    "promoCode": "CPJU7VM"
+  },
+  "mbank": {
+    "url": "https://www.mbank.cz/osobni/ucty/mkonto/",
+    "promoCode": "martinv9748"
+  },
+  "partners": {
+    "url": "https://www.partnersbanka.cz/chci500",
+    "promoCode": "CHCI500"
+  },
+  "kb": {
+    "url": "https://www.kb.cz/cs/obcane/bonus-az-4-000-kc-pro-nove-klienty",
+    "promoCode": ""
+  },
+  "unicredit": {
+    "url": "https://www.unicreditbank.cz/cs/obcane/ucty/ucty.html",
+    "promoCode": ""
+  },
+  "csob": {
+    "url": "https://www.csob.cz/ucet3000",
+    "promoCode": ""
+  },
+  "moneta": {
+    "url": "https://www.moneta.cz/ucty-a-karty/bezny-ucet",
+    "promoCode": ""
+  },
+  "airbankO2": {
+    "url": "https://www.airbank.cz/produkty/odmena-za-placeni-sluzeb-od-o2/",
+    "promoCode": ""
+  }
+}
